@@ -1,12 +1,14 @@
-package fr.alegent.Swingy.models;
+package fr.alegent.Swingy.Models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.PositiveOrZero;
 
-@AllArgsConstructor()
-public @Data class Coordinate {
+/**
+ * Coordinates representation into a map.
+ */
+@AllArgsConstructor() public @Data class Coordinate {
 
     /**
      * Horizontal and vertical position in the map.

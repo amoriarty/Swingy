@@ -3,6 +3,7 @@ package fr.alegent.Swingy;
 import fr.alegent.Swingy.Controllers.GameController;
 import fr.alegent.Swingy.Interfaces.WindowInterface;
 import fr.alegent.Swingy.Factories.WindowFactory;
+import fr.alegent.Swingy.Models.WindowMode;
 import lombok.val;
 
 public class Main {
@@ -18,24 +19,18 @@ public class Main {
         }
 
         try {
-            val window = WindowFactory.make(args[0]);
-            launch(window);
+            val mode = WindowMode.valueOf(args[0].toUpperCase());
+
+            try {
+                val game = new GameController(mode);
+                game.start();
+            } catch (Exception exception) {
+                System.err.println("Swingy: error: an error occurred during game. Application will close now.");
+            }
+
         } catch (Exception exception) {
             System.err.println("Swingy: error: invalid game mode.");
             usage();
-        }
-    }
-
-    /**
-     * Launch window, create game instance and provide game main loop.
-     * @param window Window interface previously created.
-     */
-    private static void launch(WindowInterface window) {
-        try {
-            val game = new GameController();
-            window.launch();
-        } catch (Exception exception) {
-            System.err.println("Swingy: error: an error occurred during game. Application will close now.");
         }
     }
 

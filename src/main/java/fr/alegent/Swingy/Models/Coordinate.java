@@ -8,12 +8,14 @@ import javax.validation.constraints.PositiveOrZero;
 /**
  * Coordinates representation into a map.
  */
-@AllArgsConstructor() public @Data class Coordinate {
+@AllArgsConstructor()
+public @Data class Coordinate {
 
     /**
      * Horizontal and vertical position in the map.
      */
-    @NotNull @PositiveOrZero
+    @NotNull
+    @PositiveOrZero
     private int x, y;
 
 }

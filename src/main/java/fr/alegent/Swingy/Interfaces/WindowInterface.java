@@ -1,20 +1,19 @@
 package fr.alegent.Swingy.Interfaces;
 
-import fr.alegent.Swingy.Models.State;
-
 /**
  * Interface representing an abstract window, which can be launch and received current game state.
  */
 public interface WindowInterface {
 
     /**
-     * Launch visual interface
+     * Launch visual interface.
      */
     void launch();
 
     /**
-     * Set a game state to visually represent.
-     * @param state: State to setup.
+     * Set current controller.
+     * @param controller Controller to set.
      */
-    void setState(State state);
+    void setController(WindowControllerInterface controller);
+
 }

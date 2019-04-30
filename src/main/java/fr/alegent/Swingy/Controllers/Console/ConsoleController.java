@@ -20,6 +20,10 @@ public class ConsoleController implements WindowInterface {
         System.out.println(controller.getTitle());
     }
 
+    /**
+     * Get next line from STDIN.
+     * @return Next line.
+     */
     String getInput() {
         return scanner.nextLine();
     }

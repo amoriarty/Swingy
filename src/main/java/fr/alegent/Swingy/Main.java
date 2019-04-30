@@ -1,8 +1,6 @@
 package fr.alegent.Swingy;
 
 import fr.alegent.Swingy.Controllers.GameController;
-import fr.alegent.Swingy.Interfaces.WindowInterface;
-import fr.alegent.Swingy.Factories.WindowFactory;
 import fr.alegent.Swingy.Models.WindowMode;
 import lombok.val;
 

@@ -12,13 +12,14 @@ import lombok.val;
  * Game instance and logic.
  */
 public class GameController {
-    private State state = new State(Stage.CHARACTER_CREATION);
+    private State state = new State();
     private final WindowInterface window;
     private final ControllerFactory factory;
 
     public GameController(WindowMode mode) throws Exception {
         window = WindowFactory.make(mode);
         factory = new ControllerFactory(mode);
+        state.setStage(Stage.CHARACTER_CREATION);
     }
 
     /**
@@ -29,7 +30,9 @@ public class GameController {
 
         while (state.getStage() != Stage.QUIT) {
             val controller = factory.make(state.getStage());
+            window.setController(controller);
             state = controller.update(state);
         }
     }
+
 }

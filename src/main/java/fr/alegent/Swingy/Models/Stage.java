@@ -5,12 +5,17 @@ package fr.alegent.Swingy.Models;
  */
 public enum Stage {
     /**
-     * Player character creation
+     * Player character creation.
      */
     CHARACTER_CREATION,
 
     /**
-     * Player ask to quit the game
+     * Player is in the world and can move freely or manage it's inventory.
+     */
+    FREE,
+
+    /**
+     * Player ask to quit the game.
      */
     QUIT
 }

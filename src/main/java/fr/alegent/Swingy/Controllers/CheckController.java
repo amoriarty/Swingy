@@ -26,6 +26,7 @@ public class CheckController implements ControllerInterface {
             System.out.println("MISSION PASSED");
             state.setMission(state.getMission() + 1);
             state.setStage(Stage.MISSION_GENERATION);
+            return state;
         }
 
         if (item != null) {

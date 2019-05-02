@@ -12,7 +12,16 @@ public abstract class Item {
      * Define type of items that player can found through the game.
      */
     public enum Type {
-        HELM, WEAPON, ARMOR
+        HELM, WEAPON, ARMOR;
+
+        public String toString() {
+            switch (this) {
+                case HELM: return "Helm";
+                case WEAPON: return "Weapon";
+                case ARMOR: return "Armor";
+            }
+            return null;
+        }
     }
 
     public abstract Type getType();
@@ -26,7 +35,7 @@ public abstract class Item {
     /**
      * All references items in the game.
      */
-    public static List<Class<? extends Item>> allCases = new ArrayList<Class<? extends Item>>() {{
+    static List<Class<? extends Item>> allCases = new ArrayList<Class<? extends Item>>() {{
         // ARMORS
         add(TheGoldenArmor.class);
         add(TheGondorsHorn.class);

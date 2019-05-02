@@ -30,6 +30,16 @@ public enum Stage {
     CHECK,
 
     /**
+     * Showing player his stats.
+     */
+    STATS,
+
+    /**
+     * Showing player his inventory.
+     */
+    INVENTORY,
+
+    /**
      * Player ask to quit the game.
      */
     QUIT

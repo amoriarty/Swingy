@@ -4,6 +4,7 @@ import fr.alegent.Swingy.Controllers.CheckController;
 import fr.alegent.Swingy.Controllers.Console.CharacterCreationConsoleController;
 import fr.alegent.Swingy.Controllers.Console.FreeConsoleController;
 import fr.alegent.Swingy.Controllers.Console.MoveConsoleController;
+import fr.alegent.Swingy.Controllers.Console.StatsConsoleController;
 import fr.alegent.Swingy.Controllers.MissionGenerationController;
 import fr.alegent.Swingy.Interfaces.ControllerInterface;
 import fr.alegent.Swingy.Models.Stage;
@@ -24,6 +25,7 @@ public class ControllerFactory {
         put(Stage.MISSION_GENERATION, MissionGenerationController.class);
         put(Stage.MOVE, MoveConsoleController.class);
         put(Stage.CHECK, CheckController.class);
+        put(Stage.STATS, StatsConsoleController.class);
     }};
 
     private final Map<Stage, Class<? extends ControllerInterface>> gui = new HashMap<Stage, Class<? extends ControllerInterface>>() {{

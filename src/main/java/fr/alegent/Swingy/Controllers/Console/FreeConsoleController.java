@@ -24,6 +24,9 @@ public class FreeConsoleController extends ConsoleController implements Controll
             case MOVE:
                 state.setStage(Stage.MOVE);
                 break;
+            case STATS:
+                state.setStage(Stage.STATS);
+                break;
             case QUIT:
                 state.setStage(Stage.QUIT);
                 break;

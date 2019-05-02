@@ -2,7 +2,7 @@ package fr.alegent.Swingy.Interfaces;
 
 import fr.alegent.Swingy.Models.State;
 
-public interface WindowControllerInterface {
+public interface ControllerInterface {
 
     /**
      * Title of the current controller.

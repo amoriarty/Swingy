@@ -14,6 +14,6 @@ public interface WindowInterface {
      * Set current controller.
      * @param controller Controller to set.
      */
-    void setController(WindowControllerInterface controller);
+    void setController(ControllerInterface controller);
 
 }

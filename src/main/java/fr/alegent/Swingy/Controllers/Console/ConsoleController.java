@@ -1,6 +1,6 @@
 package fr.alegent.Swingy.Controllers.Console;
 
-import fr.alegent.Swingy.Interfaces.WindowControllerInterface;
+import fr.alegent.Swingy.Interfaces.ControllerInterface;
 import fr.alegent.Swingy.Interfaces.WindowInterface;
 
 import java.util.Scanner;
@@ -16,7 +16,7 @@ public class ConsoleController implements WindowInterface {
         System.out.println("Swingy - Console Version");
     }
 
-    public void setController(WindowControllerInterface controller) {
+    public void setController(ControllerInterface controller) {
         System.out.println(controller.getTitle());
     }
 
@@ -24,7 +24,7 @@ public class ConsoleController implements WindowInterface {
      * Get next line from STDIN.
      * @return Next line.
      */
-    String getInput() {
+    String prompt() {
         return scanner.nextLine();
     }
 

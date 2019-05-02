@@ -10,6 +10,11 @@ public enum Stage {
     CHARACTER_CREATION,
 
     /**
+     * Generate next mission.
+     */
+    MISSION_GENERATION,
+
+    /**
      * Player is in the world and can move freely or manage it's inventory.
      */
     FREE,

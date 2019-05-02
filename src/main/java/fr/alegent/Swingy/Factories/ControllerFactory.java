@@ -1,12 +1,10 @@
 package fr.alegent.Swingy.Factories;
 
 import fr.alegent.Swingy.Controllers.CheckController;
-import fr.alegent.Swingy.Controllers.Console.CharacterCreationConsoleController;
-import fr.alegent.Swingy.Controllers.Console.FreeConsoleController;
-import fr.alegent.Swingy.Controllers.Console.MoveConsoleController;
-import fr.alegent.Swingy.Controllers.Console.StatsConsoleController;
+import fr.alegent.Swingy.Controllers.Console.*;
 import fr.alegent.Swingy.Controllers.MissionGenerationController;
 import fr.alegent.Swingy.Interfaces.ControllerInterface;
+import fr.alegent.Swingy.Models.Actions.InventoryModeActions;
 import fr.alegent.Swingy.Models.Stage;
 import fr.alegent.Swingy.Models.WindowMode;
 import lombok.RequiredArgsConstructor;
@@ -26,6 +24,8 @@ public class ControllerFactory {
         put(Stage.MOVE, MoveConsoleController.class);
         put(Stage.CHECK, CheckController.class);
         put(Stage.STATS, StatsConsoleController.class);
+        put(Stage.INVENTORY, InventoryConsoleController.class);
+        put(Stage.EQUIP, EquipConsoleController.class);
     }};
 
     private final Map<Stage, Class<? extends ControllerInterface>> gui = new HashMap<Stage, Class<? extends ControllerInterface>>() {{

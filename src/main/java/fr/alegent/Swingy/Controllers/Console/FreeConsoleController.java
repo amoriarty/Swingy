@@ -1,7 +1,7 @@
 package fr.alegent.Swingy.Controllers.Console;
 
 import fr.alegent.Swingy.Interfaces.ControllerInterface;
-import fr.alegent.Swingy.Models.FreeModeActions;
+import fr.alegent.Swingy.Models.Actions.FreeModeActions;
 import fr.alegent.Swingy.Models.Stage;
 import fr.alegent.Swingy.Models.State;
 import lombok.Getter;
@@ -27,6 +27,9 @@ public class FreeConsoleController extends ConsoleController implements Controll
             case STATS:
                 state.setStage(Stage.STATS);
                 break;
+            case INVENTORY:
+                state.setStage(Stage.INVENTORY);
+                break ;
             case QUIT:
                 state.setStage(Stage.QUIT);
                 break;

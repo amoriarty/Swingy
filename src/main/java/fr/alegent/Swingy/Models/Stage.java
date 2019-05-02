@@ -40,6 +40,16 @@ public enum Stage {
     INVENTORY,
 
     /**
+     * Equip mode of inventory.
+     */
+    EQUIP,
+
+    /**
+     * Unequip mode of inventory.
+     */
+    UNEQUIPPED,
+
+    /**
      * Player ask to quit the game.
      */
     QUIT

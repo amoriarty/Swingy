@@ -1,12 +1,14 @@
 package fr.alegent.Swingy.Models;
 
+import fr.alegent.Swingy.Interfaces.ChoiceInterface;
 import fr.alegent.Swingy.Models.Items.Armors.*;
 import fr.alegent.Swingy.Models.Items.Helms.*;
 import fr.alegent.Swingy.Models.Items.Weapons.*;
+import lombok.val;
 
 import java.util.*;
 
-public abstract class Item {
+public abstract class Item implements ChoiceInterface {
 
     /**
      * Define type of items that player can found through the game.
@@ -31,6 +33,23 @@ public abstract class Item {
     public abstract int getAttackBonus();
     public abstract int getArmorBonus();
     public abstract int getLuckBonus();
+
+    /**
+     * Displaying items stats on console.
+     */
+    public String toString() {
+        return String.format("%s: %s (health: %d - attack: %d - armor %d - luck %d)",
+                getType(),
+                getName(),
+                getHealthBonus(),
+                getAttackBonus(),
+                getArmorBonus(),
+                getLuckBonus());
+    }
+
+    public String asChoice() {
+        return toString();
+    }
 
     /**
      * All references items in the game.

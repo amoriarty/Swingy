@@ -33,7 +33,7 @@ public class MoveConsoleController extends ConsoleController implements Controll
 
         player.setCoordinate(coordinate);
         state.setPlayer(player);
-        state.setStage(Stage.FREE);
+        state.setStage(Stage.CHECK);
         return state;
     }
 

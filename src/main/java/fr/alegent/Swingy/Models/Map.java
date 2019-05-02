@@ -1,12 +1,14 @@
 package fr.alegent.Swingy.Models;
 
 import lombok.Getter;
+import lombok.Setter;
 import lombok.val;
 
 import java.util.HashMap;
 import java.util.Random;
 
 @Getter
+@Setter
 public class Map {
     private HashMap<Coordinate, Item> items = new HashMap<>();
     private HashMap<Coordinate, ?> enemies = new HashMap<>();

@@ -11,6 +11,7 @@ import lombok.val;
 
 import javax.validation.constraints.Positive;
 import javax.validation.constraints.PositiveOrZero;
+import java.util.ArrayList;
 
 @Getter
 @Setter
@@ -78,6 +79,11 @@ public class Player {
      */
     @PositiveOrZero
     private int xp;
+
+    /**
+     * Player items inventory.
+     */
+    private ArrayList<Item> inventory = new ArrayList<>();
 
     /**
      * Get maximum health points player can have, considering origin and equipment.

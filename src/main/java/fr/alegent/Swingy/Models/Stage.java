@@ -19,7 +19,15 @@ public enum Stage {
      */
     FREE,
 
+    /**
+     * Player is able to move in one of the four directions.
+     */
     MOVE,
+
+    /**
+     * Game checking current state to know if player pass the mission, enter a combat or loot something
+     */
+    CHECK,
 
     /**
      * Player ask to quit the game.

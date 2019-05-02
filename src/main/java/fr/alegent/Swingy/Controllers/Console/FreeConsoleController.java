@@ -9,7 +9,7 @@ import lombok.val;
 
 @Getter
 public class FreeConsoleController extends ConsoleController implements ControllerInterface {
-    final String title = "Free Mode";
+    final String title = null;
 
     public State update(State state) {
         val player = state.getPlayer();

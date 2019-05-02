@@ -39,10 +39,8 @@ public @Data class Coordinate {
     }
 
     static Coordinate random(int size) {
-        val now = (int) new Date().getTime();
-        val seed = new Random(now).nextInt();
-        val x = new Random(seed).nextInt(size);
-        val y = new Random(seed).nextInt(size);
+        val x = new Random().nextInt(size);
+        val y = new Random().nextInt(size);
         return new Coordinate(x, y);
     }
 

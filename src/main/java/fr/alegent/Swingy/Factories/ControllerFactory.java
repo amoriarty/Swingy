@@ -2,6 +2,7 @@ package fr.alegent.Swingy.Factories;
 
 import fr.alegent.Swingy.Controllers.Console.CharacterCreationConsoleController;
 import fr.alegent.Swingy.Controllers.Console.FreeConsoleController;
+import fr.alegent.Swingy.Controllers.Console.MoveConsoleController;
 import fr.alegent.Swingy.Controllers.MissionGenerationController;
 import fr.alegent.Swingy.Interfaces.ControllerInterface;
 import fr.alegent.Swingy.Models.Stage;
@@ -20,6 +21,7 @@ public class ControllerFactory {
         put(Stage.CHARACTER_CREATION, CharacterCreationConsoleController.class);
         put(Stage.FREE, FreeConsoleController.class);
         put(Stage.MISSION_GENERATION, MissionGenerationController.class);
+        put(Stage.MOVE, MoveConsoleController.class);
     }};
 
     private final Map<Stage, Class<? extends ControllerInterface>> gui = new HashMap<Stage, Class<? extends ControllerInterface>>() {{

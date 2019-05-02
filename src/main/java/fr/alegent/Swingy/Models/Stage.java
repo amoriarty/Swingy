@@ -19,6 +19,8 @@ public enum Stage {
      */
     FREE,
 
+    MOVE,
+
     /**
      * Player ask to quit the game.
      */

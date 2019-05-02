@@ -1,5 +1,6 @@
 package fr.alegent.Swingy.Models;
 
+import fr.alegent.Swingy.Interfaces.ChoiceInterface;
 import fr.alegent.Swingy.Models.Items.Armors.*;
 import fr.alegent.Swingy.Models.Items.Helms.*;
 import fr.alegent.Swingy.Models.Items.Weapons.*;
@@ -128,7 +129,7 @@ public class Player {
     /**
      * Considered as classes in most RPG, constants defined starter player stats.
      */
-    public enum Origin {
+    public enum Origin implements ChoiceInterface {
         THE_NORMAL_DUDE, THE_RAMBO, THE_BARBIE, THE_OLD_MAN_AND_THE_SEA,
         THE_47, THE_LIEUTENANT_DAN, THE_DADDYS_BOY, THE_BOROMIR, THE_MINCEMEAT;
 
@@ -295,6 +296,10 @@ public class Player {
             }
 
             return new Equipment(null, null, null);
+        }
+
+        public String asChoice() {
+            return String.format("%s - %s", getName(), getDescription());
         }
     }
 

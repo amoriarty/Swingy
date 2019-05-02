@@ -15,5 +15,5 @@ public interface ControllerInterface {
      * @param state Current game state.
      * @return New state after user interaction.
      */
-    State update(State state);
+    State update(State state) throws Exception;
 }

@@ -23,6 +23,9 @@ public class InventoryConsoleController extends ConsoleController implements Con
                 }
                 state.setStage(Stage.EQUIP);
                 break;
+            case UNEQUIPPED:
+                state.setStage(Stage.UNEQUIPPED);
+                break;
             case RETURN:
                 state.setStage(Stage.FREE);
                 break;

@@ -20,6 +20,7 @@ public class ConsoleController implements WindowInterface {
 
     public void setController(ControllerInterface controller) {
         val title = controller.getTitle();
+        System.out.println();
         if (title == null) return;
         System.out.println(controller.getTitle());
     }

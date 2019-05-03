@@ -26,6 +26,7 @@ public class ControllerFactory {
         put(Stage.STATS, StatsConsoleController.class);
         put(Stage.INVENTORY, InventoryConsoleController.class);
         put(Stage.EQUIP, EquipConsoleController.class);
+        put(Stage.UNEQUIPPED, UnequippedConsoleController.class);
     }};
 
     private final Map<Stage, Class<? extends ControllerInterface>> gui = new HashMap<Stage, Class<? extends ControllerInterface>>() {{

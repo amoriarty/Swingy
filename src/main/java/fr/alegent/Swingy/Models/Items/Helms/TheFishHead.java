@@ -7,7 +7,7 @@ import lombok.Getter;
 public class TheFishHead extends Item {
     private final Type type = Type.HELM;
     private final String name = "The Fish Head";
-    private final String description = "";
+    private final String description = "Yeah, it's a little bit disgusting ...";
     private final int healthBonus = 5;
     private final int attackBonus = 0;
     private final int armorBonus = 2;

@@ -7,7 +7,7 @@ import lombok.Getter;
 public class ThePrincessDress extends Item {
     private final Type type = Type.ARMOR;
     private final String name = "The Princess Dress";
-    private final String description = "";
+    private final String description = "Because princesses also have the right to be badass.";
     private final int healthBonus = 0;
     private final int attackBonus = 0;
     private final int armorBonus = 2;

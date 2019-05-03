@@ -7,7 +7,7 @@ import lombok.Getter;
 public class TheBigGun extends Item {
     private final Type type = Type.WEAPON;
     private final String name = "The Big Gun";
-    private final String description = "";
+    private final String description = "The one that goes \"Bang, Bang, Bang\" super fast !!";
     private final int healthBonus = 0;
     private final int attackBonus = 2;
     private final int armorBonus = 0;

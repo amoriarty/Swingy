@@ -7,7 +7,7 @@ import lombok.Getter;
 public class TheStilettoHeel extends Item {
     private final Type type = Type.WEAPON;
     private final String name = "The Stiletto Heel";
-    private final String description = "";
+    private final String description = "Have you ever taken a stiletto heel in the eye ? It hurts like hell !";
     private final int healthBonus = 0;
     private final int attackBonus = 2;
     private final int armorBonus = 0;

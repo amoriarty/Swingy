@@ -7,7 +7,7 @@ import lombok.Getter;
 public class TheGoldenHelmet extends Item {
     private final Type type = Type.HELM;
     private final String name = "The Golden Helmet";
-    private final String description = "";
+    private final String description = "Admit it, you didn't know how heavy gold is. You neck hurts, doesn't it ?";
     private final int healthBonus = 0;
     private final int attackBonus = 0;
     private final int armorBonus = 1;

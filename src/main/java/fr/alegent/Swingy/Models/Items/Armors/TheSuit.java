@@ -7,7 +7,7 @@ import lombok.Getter;
 public class TheSuit extends Item {
     private final Type type = Type.ARMOR;
     private final String name = "The Suit";
-    private final String description = "";
+    private final String description = "Of course there's a suit ! And custom-made too !";
     private final int healthBonus = 0;
     private final int attackBonus = 0;
     private final int armorBonus = 1;

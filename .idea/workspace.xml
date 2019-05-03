@@ -2,11 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba16747f-8b2a-4020-a5ce-21aa46fe6200" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/UnequippedConsoleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/ConsoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/ConsoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/InventoryConsoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/InventoryConsoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Factories/ControllerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Factories/ControllerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheGoldenArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheGoldenArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheGondorsHorn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheGondorsHorn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheHawaiianShort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheHawaiianShort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheLeatherArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheLeatherArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheOiledTorso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheOiledTorso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePinkShort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePinkShort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePoorMansLoincloth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePoorMansLoincloth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePrincessDress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePrincessDress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheSuit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheBarcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheBarcode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheCloverHelmet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheCloverHelmet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheFishHead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheFishHead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheGoldenHelmet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheGoldenHelmet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/ThePlasticCrown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/ThePlasticCrown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheRedBandanna.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheRedBandanna.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheVeryLongHair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheVeryLongHair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheBigGun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheBigGun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheFishingRod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheFishingRod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheGoldenSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheGoldenSword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheLongSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheLongSword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/ThePianoString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/ThePianoString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheSassyAnswers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheSassyAnswers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheShortSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheShortSword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheStilettoHeel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheStilettoHeel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheTreeBranch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheTreeBranch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,23 +40,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/UnequippedConsoleController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheGondorsHorn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#644#650#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="9" column="136" selection-start-line="9" selection-start-column="136" selection-end-line="9" selection-end-column="136" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/StatsConsoleController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheTreeBranch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="162">
+              <caret line="9" column="146" selection-start-line="9" selection-start-column="146" selection-end-line="9" selection-end-column="146" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,24 +61,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/ConsoleController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePoorMansLoincloth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/EquipConsoleController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="144">
+              <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -88,64 +91,64 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="features/persistance" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Interfaces/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheVeryLongHair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheGoldenArmor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheGondorsHorn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheHawaiianShort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheLeatherArmor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheOiledTorso.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePinkShort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePoorMansLoincloth.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePrincessDress.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheSuit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheBarcode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheCloverHelmet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheTreeBranch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheStilettoHeel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheShortSword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheSassyAnswers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/ThePianoString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheLongSword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheGoldenSword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheFishingRod.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheBigGun.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheRedBandanna.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/ThePlasticCrown.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheGoldenHelmet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheFishHead.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Equipment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Interfaces/ControllerInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Choice.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Interfaces/ChoiceInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/CharacterCreationConsoleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/MissionGenerationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Direction.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/MoveConsoleController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Coordinate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Map.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/CheckController.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/FreeModeActions.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Actions/InventoryModeActions.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Actions/FreeModeActions.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/FreeConsoleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Stage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/StatsConsoleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/EquipConsoleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/InventoryConsoleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Factories/ControllerFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/UnequippedConsoleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/ConsoleController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Coordinate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Equipment.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Map.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/State.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/GameController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheShortSword.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheLeatherArmor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheCloverHelmet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheBigGun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheOiledTorso.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheRedBandanna.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheStilettoHeel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePrincessDress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/ThePlasticCrown.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheFishingRod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePinkShort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheFishHead.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/ThePianoString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheSuit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheBarcode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheSassyAnswers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheHawaiianShort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheVeryLongHair.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheGoldenSword.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheGoldenArmor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheGoldenHelmet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheLongSword.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheGondorsHorn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheTreeBranch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePoorMansLoincloth.java" />
       </list>
     </option>
   </component>
@@ -219,26 +222,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="Factories" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
@@ -248,6 +232,40 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Swingy" type="462c0819:PsiDirectoryNode" />
               <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Items" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Items" type="462c0819:PsiDirectoryNode" />
+              <item name="Armors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Items" type="462c0819:PsiDirectoryNode" />
+              <item name="Helms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Items" type="462c0819:PsiDirectoryNode" />
+              <item name="Weapons" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -410,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556816147057</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Create JSONObject from State and all subclasses">
+      <created>1556878325654</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1556878325654</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -426,15 +451,15 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28594506" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28513733" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6365105" weight="0.32876712" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6365105" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
@@ -485,266 +510,22 @@
     <MESSAGE value="Adding inventory and looting." />
     <MESSAGE value="Can now see player statistics." />
     <MESSAGE value="Begin the inventory system with equip." />
-    <option name="LAST_COMMIT_MESSAGE" value="Begin the inventory system with equip." />
+    <MESSAGE value="Create JSONObject from State and all subclasses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create JSONObject from State and all subclasses" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Main.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/ItemType.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheGondorsHorn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePrincessDress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePoorMansLoincloth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePinkShort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheOiledTorso.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheLeatherArmor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheHawaiianShort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheSuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheBarcode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheTreeBranch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheStilettoHeel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheShortSword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheSassyAnswers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/ThePianoString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheLongSword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheGoldenSword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheFishingRod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheBigGun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheVeryLongHair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheRedBandanna.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/ThePlasticCrown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheGoldenHelmet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheFishHead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheGoldenArmor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Interfaces/ControllerInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Choice.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Interfaces/ChoiceInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/Console/CharacterCreationConsoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -772,59 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Coordinate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-          <folding>
-            <element signature="docComment;class#Coordinate#0" />
-            <element signature="docComment;field#x#0;class#Coordinate#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/CheckController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheCloverHelmet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Equipment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#Equipment#0" />
-            <element signature="method#getHealthBonus#0;class#Equipment#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Actions/FreeModeActions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -842,90 +570,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Stage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="docComment;field#name#0;class#Player#0" />
-            <element signature="docComment;field#origin#0;class#Player#0" />
-            <element signature="docComment;field#coordinate#0;class#Player#0" />
-            <element signature="docComment;field#equipment#0;class#Player#0" />
-            <element signature="docComment;field#health#0;class#Player#0" />
-            <element signature="docComment;field#healthMax#0;class#Player#0" />
-            <element signature="docComment;field#armor#0;class#Player#0" />
-            <element signature="docComment;field#attack#0;class#Player#0" />
-            <element signature="docComment;field#luck#0;class#Player#0" />
-            <element signature="docComment;field#level#0;class#Player#0" />
-            <element signature="docComment;field#xp#0;class#Player#0" />
-            <element signature="docComment;method#getHealthMax#0;class#Player#0" />
-            <element signature="docComment;method#getAttack#0;class#Player#0" />
-            <element signature="docComment;method#getArmor#0;class#Player#0" />
-            <element signature="docComment;method#getLuck#0;class#Player#0" />
-            <element signature="docComment;method#setOrigin#0;class#Player#0" />
-            <element signature="method#setOrigin#0;class#Player#0" />
-            <element signature="docComment;class#Origin#0;class#Player#0" />
-            <element signature="docComment;field#allCases#0;class#Origin#0;class#Player#0" />
-            <element signature="docComment;method#getName#0;class#Origin#0;class#Player#0" />
-            <element signature="method#getName#0;class#Origin#0;class#Player#0" />
-            <element signature="docComment;method#getDescription#0;class#Origin#0;class#Player#0" />
-            <element signature="method#getDescription#0;class#Origin#0;class#Player#0" />
-            <element signature="docComment;method#getLevel#0;class#Origin#0;class#Player#0" />
-            <element signature="method#getLevel#0;class#Origin#0;class#Player#0" />
-            <element signature="docComment;method#getHealth#0;class#Origin#0;class#Player#0" />
-            <element signature="method#getHealth#0;class#Origin#0;class#Player#0" />
-            <element signature="docComment;method#getArmor#0;class#Origin#0;class#Player#0" />
-            <element signature="method#getArmor#0;class#Origin#0;class#Player#0" />
-            <element signature="docComment;method#getAttack#0;class#Origin#0;class#Player#0" />
-            <element signature="method#getAttack#0;class#Origin#0;class#Player#0" />
-            <element signature="docComment;method#getLuck#0;class#Origin#0;class#Player#0" />
-            <element signature="method#getLuck#0;class#Origin#0;class#Player#0" />
-            <element signature="docComment;method#getEquipment#0;class#Origin#0;class#Player#0" />
-            <element signature="method#getEquipment#0;class#Origin#0;class#Player#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Actions/InventoryModeActions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -986,6 +634,385 @@
             <element signature="e#543#544#0" expanded="true" />
             <element signature="e#605#606#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Stage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Coordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+          <folding>
+            <element signature="docComment;class#Coordinate#0" />
+            <element signature="docComment;field#x#0;class#Coordinate#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/CheckController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="351" column="29" selection-start-line="351" selection-start-column="29" selection-end-line="351" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Equipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="68" column="68" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getHealthBonus#0;class#Equipment#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="138" column="46" selection-start-line="138" selection-start-column="46" selection-end-line="138" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#getHealthMax#0;class#Player#0" />
+            <element signature="docComment;method#getAttack#0;class#Player#0" />
+            <element signature="docComment;method#getArmor#0;class#Player#0" />
+            <element signature="docComment;method#getLuck#0;class#Player#0" />
+            <element signature="docComment;method#setOrigin#0;class#Player#0" />
+            <element signature="method#setOrigin#0;class#Player#0" />
+            <element signature="docComment;class#Origin#0;class#Player#0" />
+            <element signature="docComment;field#allCases#0;class#Origin#0;class#Player#0" />
+            <element signature="docComment;method#getName#0;class#Origin#0;class#Player#0" />
+            <element signature="method#getName#0;class#Origin#0;class#Player#0" />
+            <element signature="docComment;method#getDescription#0;class#Origin#0;class#Player#0" />
+            <element signature="method#getDescription#0;class#Origin#0;class#Player#0" />
+            <element signature="docComment;method#getLevel#0;class#Origin#0;class#Player#0" />
+            <element signature="method#getLevel#0;class#Origin#0;class#Player#0" />
+            <element signature="docComment;method#getHealth#0;class#Origin#0;class#Player#0" />
+            <element signature="method#getHealth#0;class#Origin#0;class#Player#0" />
+            <element signature="docComment;method#getArmor#0;class#Origin#0;class#Player#0" />
+            <element signature="method#getArmor#0;class#Origin#0;class#Player#0" />
+            <element signature="docComment;method#getAttack#0;class#Origin#0;class#Player#0" />
+            <element signature="method#getAttack#0;class#Origin#0;class#Player#0" />
+            <element signature="docComment;method#getLuck#0;class#Origin#0;class#Player#0" />
+            <element signature="method#getLuck#0;class#Origin#0;class#Player#0" />
+            <element signature="docComment;method#getEquipment#0;class#Origin#0;class#Player#0" />
+            <element signature="method#getEquipment#0;class#Origin#0;class#Player#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save_data/plop.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheLeatherArmor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheShortSword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheBigGun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="93" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheCloverHelmet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="97" selection-start-line="9" selection-start-column="97" selection-end-line="9" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheOiledTorso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="95" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheRedBandanna.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheStilettoHeel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="109" selection-start-line="9" selection-start-column="109" selection-end-line="9" selection-end-column="109" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/ThePlasticCrown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePrincessDress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePinkShort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheFishingRod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheFishHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/ThePianoString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheSassyAnswers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="106" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheBarcode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheHawaiianShort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheVeryLongHair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheGoldenSword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Helms/TheGoldenHelmet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="113" selection-start-line="9" selection-start-column="113" selection-end-line="9" selection-end-column="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheGoldenArmor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="141" selection-start-line="9" selection-start-column="141" selection-end-line="9" selection-end-column="141" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheLongSword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/TheGondorsHorn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="136" selection-start-line="9" selection-start-column="136" selection-end-line="9" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Weapons/TheTreeBranch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="146" selection-start-line="9" selection-start-column="146" selection-end-line="9" selection-end-column="146" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Items/Armors/ThePoorMansLoincloth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
         </state>
       </provider>
     </entry>

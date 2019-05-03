@@ -7,7 +7,7 @@ import lombok.Getter;
 public class TheGoldenSword extends Item {
     private final Type type = Type.WEAPON;
     private final String name = "The Golden Sword";
-    private final String description = "";
+    private final String description = "How cool does it look ?";
     private final int healthBonus = 0;
     private final int attackBonus = 5;
     private final int armorBonus = 0;

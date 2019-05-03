@@ -7,7 +7,7 @@ import lombok.Getter;
 public class TheBarcode extends Item {
     private final Type type = Type.HELM;
     private final String name = "The Barcode";
-    private final String description = "";
+    private final String description = "It's great for identifying your corpse !";
     private final int healthBonus = 2;
     private final int attackBonus = 0;
     private final int armorBonus = 0;

@@ -7,7 +7,7 @@ import lombok.Getter;
 public class ThePianoString extends Item {
     private final Type type = Type.WEAPON;
     private final String name = "The Piano String";
-    private final String description = "";
+    private final String description = "For you, the music-loving warriors !";
     private final int healthBonus = 0;
     private final int attackBonus = 1;
     private final int armorBonus = 0;

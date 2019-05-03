@@ -7,7 +7,7 @@ import lombok.Getter;
 public class ThePlasticCrown extends Item {
     private final Type type = Type.HELM;
     private final String name = "The Plastic Crown";
-    private final String description = "";
+    private final String description = "Pretty powerful for a knock-off !";
     private final int healthBonus = 3;
     private final int attackBonus = 0;
     private final int armorBonus = 1;

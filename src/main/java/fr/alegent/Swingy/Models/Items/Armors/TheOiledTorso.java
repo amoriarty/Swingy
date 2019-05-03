@@ -7,7 +7,7 @@ import lombok.Getter;
 public class TheOiledTorso extends Item {
     private final Type type = Type.ARMOR;
     private final String name = "The Oiled Torso";
-    private final String description = "";
+    private final String description = "Because you never know, you might as well look cool ...";
     private final int healthBonus = 0;
     private final int attackBonus = 0;
     private final int armorBonus = 0;

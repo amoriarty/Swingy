@@ -1,7 +1,7 @@
 package fr.alegent.Swingy.Services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import fr.alegent.Swingy.Main;
+import fr.alegent.Swingy.Swingy;
 import lombok.val;
 
 class JSONService {
@@ -10,7 +10,7 @@ class JSONService {
 
     <T> T get(String resource, Class<? extends T> asClass) {
         try {
-            val url = Main.class.getResource(resource);
+            val url = Swingy.class.getResource(resource);
             return mapper.readValue(url, asClass);
         } catch (Exception exception) {
             exception.printStackTrace();

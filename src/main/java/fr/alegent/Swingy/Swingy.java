@@ -4,7 +4,7 @@ import fr.alegent.Swingy.Controllers.GameController;
 import fr.alegent.Swingy.Exceptions.InvalidGameMode;
 import lombok.val;
 
-public class Main {
+public class Swingy {
 
     public static void main(String[] args) {
         if (args.length != 1) {

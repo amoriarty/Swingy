@@ -20,7 +20,6 @@ public class Main {
             System.err.println(exception.toString());
             usage();
         } catch (Exception exception) {
-            System.err.println(exception.toString());
             exception.printStackTrace();
         }
     }

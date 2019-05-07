@@ -1,0 +1,92 @@
+[
+  {
+    "name": "The Basic Goblin",
+    "description": "Have you ever seen The Lord of the Ring ? Well, it's that kind of goblin ...",
+    "level": 3,
+    "health": 5,
+    "armor": 10,
+    "attack": 10,
+    "luck": 20
+  },
+  {
+    "name": "The Zombie Warrior",
+    "description": "Like a normal zombie, but in warrior mode.",
+    "level": 3,
+    "health": 15,
+    "armor": 15,
+    "attack": 10,
+    "luck": 10
+  },
+  {
+    "name": "That Weird Cat in you Neighborhood",
+    "description": "You know very well what I mean",
+    "level": 3,
+    "health": 35,
+    "armor": 5,
+    "attack": 5,
+    "luck": 5
+  },
+  {
+    "name": "The Big Spider",
+    "description": "Big Fucking Spider !",
+    "level": 4,
+    "health": 20,
+    "armor": 20,
+    "attack": 15,
+    "luck": 5
+  },
+  {
+    "name": "The Stupid Giant",
+    "description": "He's a little stupid, but he compensate by hitting hard.",
+    "level": 5,
+    "health": 20,
+    "armor": 20,
+    "attack": 20,
+    "luck": 15
+  },
+  {
+    "name": "The Sock in Flip-Flops",
+    "description": "Enemies number 1 in good taste.",
+    "level": 2,
+    "health": 10,
+    "armor": 10,
+    "attack": 10,
+    "luck": 5
+  },
+  {
+    "name": "The Pink Elephant",
+    "description": "If you see him: put down that bottle immediately !",
+    "level": 4,
+    "health": 15,
+    "armor": 20,
+    "attack": 15,
+    "luck": 10
+  },
+  {
+    "name": "The Rock in the Shoe",
+    "description": "He's a pain in the ass, isn't he ...",
+    "level": 1,
+    "health": 5,
+    "armor": 0,
+    "attack": 10,
+    "luck": 0
+  },
+  {
+    "name": "The Dead Fish",
+    "description": "Don't trust his innocent smile. He's more dangerous that he looks ... or not in fact.",
+    "level": 1,
+    "health": 5,
+    "armor": 0,
+    "attack": 5,
+    "luck": 10
+  },
+  {
+    "name": "The Internet Explorer",
+    "description": "Everyone has forgotten him, but the hour of his vengeance has finally come ! Tremble before his (relative) power !",
+    "level": 2,
+    "health": 10,
+    "armor": 5,
+    "attack": 15,
+    "luck": 0
+  }
+]

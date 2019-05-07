@@ -1,0 +1,227 @@
+[
+  {
+    "type": "ARMOR",
+    "name": "The Suit",
+    "description": "Of course there's a suit ! And custom-made too !",
+    "health": 0,
+    "attack": 0,
+    "armor": 1,
+    "luck": 0
+  },
+  {
+    "type": "ARMOR",
+    "name": "The Golden Armor",
+    "description": "Possibility to dazzle enemies ... And passers-by ... and you too ... A little bit everyone actually !",
+    "health": 2,
+    "attack": -2,
+    "armor": 5,
+    "luck": 0
+  },
+  {
+    "type": "ARMOR",
+    "name": "The Gondor's Horn",
+    "description": "Help comes every time you blow it. All you have to do is hope that the orcs don't get you first.",
+    "health": -5,
+    "attack": 0,
+    "armor": 5,
+    "luck": 0
+  },
+  {
+    "type": "ARMOR",
+    "name": "The Hawaiian Short",
+    "description": "You can't be good at everything ...",
+    "health": 0,
+    "attack": 0,
+    "armor": 0,
+    "luck": -1
+  },
+  {
+    "type": "ARMOR",
+    "name": "The Leather Armor",
+    "description": "Made of top quality snail leather ! (May possibly smell bad in case of high heat)",
+    "health": 0,
+    "attack": -1,
+    "armor": 2,
+    "luck": 0
+  },
+  {
+    "type": "ARMOR",
+    "name": "The Oiled Torso",
+    "description": "Because you never know, you might as well look cool ...",
+    "health": 0,
+    "attack": 0,
+    "armor": 0,
+    "luck": 0
+  },
+  {
+    "type": "ARMOR",
+    "name": "The Pink Short",
+    "description": "I like this color, it looks good on you !",
+    "health": 0,
+    "attack": 0,
+    "armor": 0,
+    "luck": 0
+  },
+  {
+    "type": "ARMOR",
+    "name": "The Poor Man's Loincloth",
+    "description": "Well, you couldn't walk around naked, could you ?",
+    "health": -1,
+    "attack": 0,
+    "armor": 0,
+    "luck": 0
+  },
+  {
+    "type": "ARMOR",
+    "name": "The Princess Dress",
+    "description": "Because princesses also have the right to be badass.",
+    "health": 0,
+    "attack": 0,
+    "armor": 2,
+    "luck": -1
+  },
+  {
+    "type": "HELM",
+    "name": "The Barcode",
+    "description": "It's great for identifying your corpse !",
+    "health": 2,
+    "attack": 0,
+    "armor": 0,
+    "luck": -1
+  },
+  {
+    "type": "HELM",
+    "name": "The Clover Helmet",
+    "description": "A regular helmet, decorated with a few four-leaf clovers.",
+    "health": 2,
+    "attack": 0,
+    "armor": 0,
+    "luck": 3
+  },
+  {
+    "type": "HELM",
+    "name": "The Fish Head",
+    "description": "Yeah, it's a little bit disgusting ...",
+    "health": 5,
+    "attack": 0,
+    "armor": 2,
+    "luck": 0
+  },
+  {
+    "type": "HELM",
+    "name": "The Golden Helmet",
+    "description": "Admit it, you didn't know how heavy gold is. You neck hurts, doesn't it ?",
+    "health": 0,
+    "attack": 0,
+    "armor": 1,
+    "luck": 0
+  },
+  {
+    "type": "HELM",
+    "name": "The Plastic Crown",
+    "description": "Pretty powerful for a knock-off !",
+    "health": 3,
+    "attack": 0,
+    "armor": 1,
+    "luck": 1
+  },
+  {
+    "type": "HELM",
+    "name": "The Red Bandanna",
+    "description": "Purely aesthetic, the prerogative of real warriors !",
+    "health": 0,
+    "attack": 0,
+    "armor": 0,
+    "luck": 0
+  },
+  {
+    "type": "HELM",
+    "name": "The Very Long Hair",
+    "description": "Can be very annoying in the wind.",
+    "health": 0,
+    "attack": 0,
+    "armor": 0,
+    "luck": 0
+  },
+  {
+    "type": "WEAPON",
+    "name": "The Big Gun",
+    "description": "The one that goes \"Bang, Bang, Bang\" super fast !!",
+    "health": 0,
+    "attack": 2,
+    "armor": 0,
+    "luck": 0
+  },
+  {
+    "type": "WEAPON",
+    "name": "The Fishing Rod",
+    "description": "Because why not ?",
+    "health": 0,
+    "attack": 2,
+    "armor": 0,
+    "luck": -1
+  },
+  {
+    "type": "WEAPON",
+    "name": "The Golden Sword",
+    "description": "How cool does it look ?",
+    "health": 0,
+    "attack": 5,
+    "armor": 0,
+    "luck": 0
+  },
+  {
+    "type": "WEAPON",
+    "name": "The Long Sword",
+    "description": "It's a long sword ... Didn't you read the name or what ?",
+    "health": 0,
+    "attack": 5,
+    "armor": 0,
+    "luck": 0
+  },
+  {
+    "type": "WEAPON",
+    "name": "The Piano String",
+    "description": "For you, the music-loving warriors !",
+    "health": 0,
+    "attack": 1,
+    "armor": 0,
+    "luck": 2
+  },
+  {
+    "type": "WEAPON",
+    "name": "The Sassy Answers",
+    "description": "Not everyone necessarily understands sarcasm, but it's still dassy",
+    "health": 1,
+    "attack": 5,
+    "armor": 5,
+    "luck": -1
+  },
+  {
+    "type": "WEAPON",
+    "name": "The Short Sword",
+    "description": "It's a short sword.",
+    "health": 0,
+    "attack": 1,
+    "armor": 0,
+    "luck": 0
+  },
+  {
+    "type": "WEAPON",
+    "name": "The Stiletto Heel",
+    "description": "Have you ever taken a stiletto heel in the eye ? It hurts like hell !",
+    "health": 0,
+    "attack": 2,
+    "armor": 0,
+    "luck": 0
+  },
+  {
+    "type": "WEAPON",
+    "name": "The Tree Branch",
+    "description": "Found on the side of the road, in the dark and with your eyes closed, she looks vaguely like a real sword.",
+    "health": 0,
+    "attack": 1,
+    "armor": 0,
+    "luck": 0
+  }
+]

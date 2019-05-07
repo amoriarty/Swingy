@@ -11,6 +11,7 @@ public class Enemy {
 
     @Override
     public String toString() {
+        //noinspection ConstantConditions
         return String.format("%s - %s", name, description);
     }
 }

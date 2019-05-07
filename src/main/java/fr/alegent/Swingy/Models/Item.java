@@ -15,6 +15,7 @@ public class Item {
 
     @Override
     public String toString() {
+        //noinspection ConstantConditions
         return String.format(
                 "%s - health: %d - attack: %d - armor: %d - luck: %d\n\t-- %s",
                 name,

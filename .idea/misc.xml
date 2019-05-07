@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Enemy armor" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Enemy attack" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Enemy health" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Enemy level" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Enemy luck" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Item.Type ARMOR" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Item.Type HELM" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Item type" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Item.Type WEAPON" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Origin armor" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Origin.Equipment armor" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Origin attack" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Origin equipment" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Origin health" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Origin.Equipment helm" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Origin level" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Origin luck" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Origin.Equipment weapon" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Factories.ViewFactory.Mode GUI" />
+    </entry_points>
+    <pattern value="fr.alegent.Swingy.Models.Item.Type" />
+    <pattern value="fr.alegent.Swingy.Models.Origin.Equipment" />
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">

@@ -1,7 +1,9 @@
 package fr.alegent.Swingy.Models;
 
 public class Origin {
+    @SuppressWarnings("WeakerAccess")
     public final String name = null;
+    @SuppressWarnings("WeakerAccess")
     public final String description = null;
     public final Integer level = 0;
     public final Integer health = 0;
@@ -16,7 +18,6 @@ public class Origin {
         public final Item weapon = null;
     }
 
-    @Override
     public String toString() {
         //noinspection ConstantConditions
         return String.format("%s - %s", name, description);

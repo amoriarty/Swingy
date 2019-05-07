@@ -1,41 +1,64 @@
 package fr.alegent.Swingy.Views.GUI;
 
+import fr.alegent.Swingy.Views.GameView;
 import lombok.val;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ComponentAdapter;
-import java.awt.event.ComponentEvent;
 
-public class GameGUIView {
-    private final JFrame frame = new JFrame("Swingy");
-    private final JScrollPane scroll;
+public class GameGUIView extends GameView {
+    @SuppressWarnings("FieldCanBeLocal")
+    private final JSplitPane split = new SplitPane();
+    private final JTextArea console = new TextArea();
 
     public GameGUIView() {
-        val font = new Font("SF Mono", Font.PLAIN,16);
-        val text = new JTextArea();
+        val frame = new Frame();
+        val scroll = new JScrollPane(console);
 
-        text.setFont(font);
-        text.setLineWrap(true);
-        text.setEditable(false);
-        scroll = new JScrollPane(text);
-
-        frame.add(scroll);
-        frame.setLayout(null);
-        frame.setSize(500, 500);
-        frame.addComponentListener(new Adapter());
+        split.setTopComponent(scroll);
+        frame.add(split);
         frame.setVisible(true);
-        frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
     }
 
-    class Adapter extends ComponentAdapter {
+//    public void setPane(JPanel pane) {
+//        split.setBottomComponent(pane);
+//    }
 
-        @Override
-        public void componentResized(ComponentEvent e) {
-            super.componentResized(e);
+    public void println(String text) {
+        console.append(text + "\n");
+    }
 
-            val size = frame.getSize();
-            scroll.setBounds(10, 10, size.width - 20, (size.height / 2) - 30);
+    private class Frame extends JFrame {
+
+        Frame() {
+            super("Swingy");
+            setLayout(new BorderLayout());
+            setSize(500, 500);
+            setLocationRelativeTo(null);
+            setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        }
+
+    }
+
+    private class SplitPane extends JSplitPane {
+
+        SplitPane() {
+            super();
+            setEnabled(false);
+            setResizeWeight(.5d);
+            setOrientation(VERTICAL_SPLIT);
+        }
+
+    }
+
+    private class TextArea extends JTextArea {
+
+        TextArea() {
+            super();
+            val font = new Font("SF Mono", Font.PLAIN,16);
+            setFont(font);
+            setLineWrap(true);
+            setEditable(false);
         }
 
     }

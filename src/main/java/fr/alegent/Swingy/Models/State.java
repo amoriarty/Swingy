@@ -6,6 +6,7 @@ public class State {
 
     public enum Stage {
         QUIT,
-        NEW_CHARACTER
+        NEW_CHARACTER,
+        FREE_MODE
     }
 }

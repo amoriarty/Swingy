@@ -13,8 +13,8 @@ public class NoViewDefined extends Exception {
     public String toString() {
         return String.format(
                 "Swingy: error: no view defined for type %s in %s mode.",
-                type.toString(),
-                mode.toString()
+                type,
+                mode
         );
     }
 

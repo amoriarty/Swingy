@@ -1,6 +1,7 @@
 package fr.alegent.Swingy.Controllers;
 
 import fr.alegent.Swingy.Exceptions.InvalidGameMode;
+import fr.alegent.Swingy.Factories.ControllerFactory;
 import fr.alegent.Swingy.Factories.ViewFactory;
 import fr.alegent.Swingy.Models.State;
 import fr.alegent.Swingy.Views.GameView;
@@ -29,9 +30,9 @@ public class GameController {
             if (!changes) continue;
             changes = false;
 
-            val controller = new NewCharacterController(factory, this, state);
+            val controller = ControllerFactory.make(state.stage, factory, this, state);
             view.addSubview(controller.view);
-            view.println(controller.title);
+            view.println(controller.getTitle());
             controller.start();
         }
     }

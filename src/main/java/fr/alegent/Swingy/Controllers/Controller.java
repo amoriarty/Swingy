@@ -9,18 +9,16 @@ public abstract class Controller {
     final State state;
     final View view;
 
-    public enum Type {
-        NEW_CHARACTER
-    }
-
     Controller(ViewFactory factory,
                View.Type type,
                GameController parent,
                State state) throws Exception {
-        this.view = factory.make(type);
-        this.view.setController(this);
+        this.view = factory != null ? factory.make(type) : null;
         this.parent = parent;
         this.state = state;
+
+        if (view == null) return;
+        view.setController(this);
     }
 
     void start() throws Exception {

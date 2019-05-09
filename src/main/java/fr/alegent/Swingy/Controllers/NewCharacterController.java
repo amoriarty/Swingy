@@ -24,6 +24,7 @@ public class NewCharacterController extends Controller {
         }
 
         state.player = new Player(name, origin);
+        state.stage = State.Stage.MISSION_GENERATION;
         parent.update(state);
     }
 

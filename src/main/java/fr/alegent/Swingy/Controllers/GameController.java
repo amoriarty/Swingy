@@ -14,7 +14,6 @@ public class GameController {
     private State state = new State();
     final GameView view;
 
-
     public GameController(String mode) throws Exception {
         try {
             factory = new ViewFactory(mode);
@@ -31,8 +30,9 @@ public class GameController {
             changes = false;
 
             val controller = ControllerFactory.make(state.stage, factory, this, state);
+            val title = controller.getTitle();
+            if (title != null) view.println(title);
             view.addSubview(controller.view);
-            view.println(controller.getTitle());
             controller.start();
         }
     }
@@ -40,7 +40,6 @@ public class GameController {
     void update(State state) {
         this.state = state;
         this.changes = true;
-        view.println(state.player.name + " " + state.player.origin);
         view.println("===========================================");
     }
 

@@ -4,8 +4,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import fr.alegent.Swingy.Swingy;
 import lombok.val;
 
-public class ResourceService {
-    public static final ResourceService shared = new ResourceService();
+public class ResourcesService {
+    public static final ResourcesService shared = new ResourcesService();
     private final ObjectMapper mapper = new ObjectMapper();
 
     public <T> T get(String resource, Class<? extends T> asClass) throws Exception {
@@ -13,5 +13,5 @@ public class ResourceService {
         return mapper.readValue(url, asClass);
     }
 
-    private ResourceService() { }
+    private ResourcesService() { }
 }

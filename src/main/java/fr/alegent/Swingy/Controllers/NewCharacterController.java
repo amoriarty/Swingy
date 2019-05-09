@@ -1,20 +1,25 @@
 package fr.alegent.Swingy.Controllers;
 
 import fr.alegent.Swingy.Factories.ViewFactory;
-import fr.alegent.Swingy.Views.Generics.NewCharacterView;
+import fr.alegent.Swingy.Models.Origin;
+import fr.alegent.Swingy.Models.Player;
+import fr.alegent.Swingy.Models.State;
 import fr.alegent.Swingy.Views.View;
 
-class NewCharacterController {
-    private final GameController parent;
-    final NewCharacterView view;
+public class NewCharacterController extends Controller {
 
-    public NewCharacterController(ViewFactory factory, GameController parent) throws Exception {
-        view = factory.make(View.Type.NEW_CHARACTER);
-        this.parent = parent;
+    NewCharacterController(ViewFactory factory, GameController parent, State state) throws Exception {
+        super(factory, View.Type.NEW_CHARACTER, parent, state);
     }
 
-    void start() {
-        parent.view.println("Starting new character controller.");
-    }
+    public void create(String name, Origin origin) {
+        if (name == null || origin == null) return;
+        if (name.isEmpty()) {
+            parent.view.println("Character name can't be empty.");
+            return;
+        }
 
+        state.player = new Player(name, origin);
+        parent.update(state);
+    }
 }

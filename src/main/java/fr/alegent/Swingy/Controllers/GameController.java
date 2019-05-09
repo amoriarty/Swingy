@@ -9,27 +9,45 @@ import lombok.val;
 
 public class GameController {
     private final ViewFactory factory;
+    private boolean changes = true;
+    private Exception exception = null;
+    private State state = new State();
     final GameView view;
+
+
 
     public GameController(String mode) throws Exception {
         try {
             factory = new ViewFactory(mode);
             view = factory.make(View.Type.GAME);
+            state.stage = State.Stage.NEW_CHARACTER;
         } catch (IllegalArgumentException exception) {
             throw new InvalidGameMode();
         }
     }
 
     public void start() throws Exception {
-        val state = new State();
-        state.stage = State.Stage.NEW_CHARACTER;
-        update(state);
+        while (state.stage != State.Stage.QUIT) {
+            if (exception != null) {
+                view.dispose();
+                throw exception;
+            }
+
+            if (!changes) continue;
+
+            val controller = new NewCharacterController(factory, this, state);
+            view.addSubview(controller.view);
+            changes = false;
+        }
+
+        view.dispose();
     }
 
-    private void update(State state) throws Exception {
-        val controller = new NewCharacterController(factory, this);
-        view.addSubview(controller.view);
-        controller.start();
+    void update(State state) {
+        this.state = state;
+        this.changes = true;
+
+        view.println(state.player.name + " " + state.player.origin);
     }
 
 }

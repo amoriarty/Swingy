@@ -1,5 +1,6 @@
 package fr.alegent.Swingy.Factories;
 
+import fr.alegent.Swingy.Controllers.Controller;
 import fr.alegent.Swingy.Exceptions.NoViewDefined;
 import fr.alegent.Swingy.Views.Console.GameConsoleView;
 import fr.alegent.Swingy.Views.GUI.GameGUIView;

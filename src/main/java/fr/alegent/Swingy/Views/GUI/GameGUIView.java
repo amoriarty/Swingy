@@ -1,5 +1,6 @@
 package fr.alegent.Swingy.Views.GUI;
 
+import fr.alegent.Swingy.Controllers.Controller;
 import fr.alegent.Swingy.Views.Generics.GameView;
 import fr.alegent.Swingy.Views.View;
 import lombok.val;
@@ -7,17 +8,23 @@ import lombok.val;
 import javax.swing.*;
 import java.awt.*;
 
-public class GameGUIView implements GameView {
+public class GameGUIView extends JFrame implements GameView {
     private final JSplitPane split = new SplitPane();
     private final JTextArea console = new TextArea();
 
     public GameGUIView() {
-        val frame = new Frame();
-        val scroll = new JScrollPane(console);
+        super("Swingy");
+        setLayout(new BorderLayout());
+        setSize(500, 500);
+        setLocationRelativeTo(null);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 
+        val scroll = new JScrollPane(console);
+        val pane = new JPanel();
         split.setTopComponent(scroll);
-        frame.add(split);
-        frame.setVisible(true);
+        split.setBottomComponent(pane);
+        add(split);
+        setVisible(true);
     }
 
     public void println(String text) {
@@ -28,17 +35,7 @@ public class GameGUIView implements GameView {
         split.setBottomComponent((Component) view);
     }
 
-    private class Frame extends JFrame {
-
-        Frame() {
-            super("Swingy");
-            setLayout(new BorderLayout());
-            setSize(500, 500);
-            setLocationRelativeTo(null);
-            setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-        }
-
-    }
+    public void setController(Controller controller) { }
 
     private class SplitPane extends JSplitPane {
 

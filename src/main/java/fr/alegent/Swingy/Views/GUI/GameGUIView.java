@@ -1,13 +1,13 @@
 package fr.alegent.Swingy.Views.GUI;
 
-import fr.alegent.Swingy.Views.GameView;
+import fr.alegent.Swingy.Views.Generics.GameView;
+import fr.alegent.Swingy.Views.View;
 import lombok.val;
 
 import javax.swing.*;
 import java.awt.*;
 
-public class GameGUIView extends GameView {
-    @SuppressWarnings("FieldCanBeLocal")
+public class GameGUIView implements GameView {
     private final JSplitPane split = new SplitPane();
     private final JTextArea console = new TextArea();
 
@@ -20,12 +20,12 @@ public class GameGUIView extends GameView {
         frame.setVisible(true);
     }
 
-//    public void setPane(JPanel pane) {
-//        split.setBottomComponent(pane);
-//    }
-
     public void println(String text) {
         console.append(text + "\n");
+    }
+
+    public void addSubview(View view) {
+        split.setBottomComponent((Component) view);
     }
 
     private class Frame extends JFrame {

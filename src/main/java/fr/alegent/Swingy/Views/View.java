@@ -1,7 +1,8 @@
 package fr.alegent.Swingy.Views;
 
-public abstract class View {
-    public enum Type {
-        GAME
+public interface View {
+    enum Type {
+        GAME,
+        NEW_CHARACTER
     }
 }

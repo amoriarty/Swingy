@@ -7,8 +7,8 @@ import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
 public class NoViewDefined extends Exception {
-    private final View.Type type;
     private final ViewFactory.Mode mode;
+    private final View.Type type;
 
     public String toString() {
         return String.format(

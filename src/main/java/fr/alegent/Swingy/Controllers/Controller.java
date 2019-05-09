@@ -9,7 +9,8 @@ public abstract class Controller {
     final State state;
     final View view;
 
-    Controller(ViewFactory factory, View.Type type,
+    Controller(ViewFactory factory,
+               View.Type type,
                GameController parent,
                State state) throws Exception {
         this.view = factory.make(type);

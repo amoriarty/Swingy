@@ -3,17 +3,15 @@ package fr.alegent.Swingy.Controllers;
 import fr.alegent.Swingy.Exceptions.InvalidGameMode;
 import fr.alegent.Swingy.Factories.ViewFactory;
 import fr.alegent.Swingy.Models.State;
-import fr.alegent.Swingy.Views.Generics.GameView;
+import fr.alegent.Swingy.Views.GameView;
 import fr.alegent.Swingy.Views.View;
 import lombok.val;
 
 public class GameController {
     private final ViewFactory factory;
     private boolean changes = true;
-    private Exception exception = null;
     private State state = new State();
     final GameView view;
-
 
 
     public GameController(String mode) throws Exception {
@@ -28,19 +26,12 @@ public class GameController {
 
     public void start() throws Exception {
         while (state.stage != State.Stage.QUIT) {
-            if (exception != null) {
-                view.dispose();
-                throw exception;
-            }
-
             if (!changes) continue;
 
             val controller = new NewCharacterController(factory, this, state);
             view.addSubview(controller.view);
             changes = false;
         }
-
-        view.dispose();
     }
 
     void update(State state) {

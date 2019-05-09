@@ -21,9 +21,12 @@
       <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Origin luck" />
       <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Origin.Equipment weapon" />
       <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Factories.ViewFactory.Mode GUI" />
+      <entry_point TYPE="field" FQNAME="fr.alegent.Swingy.Models.Origin description" />
     </entry_points>
     <pattern value="fr.alegent.Swingy.Models.Item.Type" />
     <pattern value="fr.alegent.Swingy.Models.Origin.Equipment" />
+    <pattern value="fr.alegent.Swingy.Models.Enemy" />
+    <pattern value="fr.alegent.Swingy.Models.Item" />
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">

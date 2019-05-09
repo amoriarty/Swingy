@@ -4,7 +4,7 @@ import fr.alegent.Swingy.Controllers.Controller;
 
 import javax.swing.*;
 
-public class GUIView extends JPanel {
+abstract class GUIView extends JPanel {
     Controller controller;
 
     public void setController(Controller controller) {

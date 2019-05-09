@@ -22,4 +22,5 @@ public class NewCharacterController extends Controller {
         state.player = new Player(name, origin);
         parent.update(state);
     }
+
 }

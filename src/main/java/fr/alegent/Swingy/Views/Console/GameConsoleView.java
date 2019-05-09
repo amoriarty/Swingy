@@ -1,6 +1,7 @@
 package fr.alegent.Swingy.Views.Console;
 
-import fr.alegent.Swingy.Views.Generics.GameView;
+import fr.alegent.Swingy.Controllers.Controller;
+import fr.alegent.Swingy.Views.GameView;
 import fr.alegent.Swingy.Views.View;
 
 public class GameConsoleView extends ConsoleView implements GameView {
@@ -11,6 +12,6 @@ public class GameConsoleView extends ConsoleView implements GameView {
 
     public void addSubview(View view) { }
 
-    public void dispose() { }
+    public void setController(Controller controller) { }
 
 }

@@ -5,6 +5,7 @@ import fr.alegent.Swingy.Models.State;
 import fr.alegent.Swingy.Views.View;
 
 public abstract class Controller {
+    final String title = null;
     final GameController parent;
     final State state;
     final View view;
@@ -17,5 +18,9 @@ public abstract class Controller {
         this.view.setController(this);
         this.parent = parent;
         this.state = state;
+    }
+
+    void start() throws Exception {
+        view.start();
     }
 }

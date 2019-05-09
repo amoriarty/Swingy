@@ -14,4 +14,6 @@ public class GameConsoleView extends ConsoleView implements GameView {
 
     public void setController(Controller controller) { }
 
+    public void start() { }
+
 }

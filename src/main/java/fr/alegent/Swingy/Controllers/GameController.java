@@ -27,18 +27,20 @@ public class GameController {
     public void start() throws Exception {
         while (state.stage != State.Stage.QUIT) {
             if (!changes) continue;
+            changes = false;
 
             val controller = new NewCharacterController(factory, this, state);
             view.addSubview(controller.view);
-            changes = false;
+            view.println(controller.title);
+            controller.start();
         }
     }
 
     void update(State state) {
         this.state = state;
         this.changes = true;
-
         view.println(state.player.name + " " + state.player.origin);
+        view.println("===========================================");
     }
 
 }

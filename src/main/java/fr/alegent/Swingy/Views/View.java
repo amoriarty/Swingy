@@ -8,5 +8,6 @@ public interface View {
         NEW_CHARACTER
     }
 
+    void start() throws Exception;
     void setController(Controller controller);
 }

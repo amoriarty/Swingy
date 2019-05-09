@@ -2,6 +2,7 @@ package fr.alegent.Swingy.Factories;
 
 import fr.alegent.Swingy.Exceptions.NoViewDefined;
 import fr.alegent.Swingy.Views.Console.GameConsoleView;
+import fr.alegent.Swingy.Views.Console.NewCharacterConsoleView;
 import fr.alegent.Swingy.Views.GUI.GameGUIView;
 import fr.alegent.Swingy.Views.GUI.NewCharacterGUIView;
 import fr.alegent.Swingy.Views.View;
@@ -15,6 +16,7 @@ public class ViewFactory {
 
     private final Map<View.Type, Class<? extends View>> console = new HashMap<View.Type, Class<? extends View>>() {{
         put(View.Type.GAME, GameConsoleView.class);
+        put(View.Type.NEW_CHARACTER, NewCharacterConsoleView.class);
     }};
 
     private final Map<View.Type, Class<? extends View>> gui = new HashMap<View.Type, Class<? extends View>>() {{

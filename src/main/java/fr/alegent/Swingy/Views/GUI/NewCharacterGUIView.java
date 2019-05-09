@@ -3,14 +3,13 @@ package fr.alegent.Swingy.Views.GUI;
 import fr.alegent.Swingy.Controllers.NewCharacterController;
 import fr.alegent.Swingy.Models.Origin;
 import fr.alegent.Swingy.Services.ResourcesService;
-import fr.alegent.Swingy.Views.View;
 import lombok.val;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class NewCharacterGUIView extends GUIView implements ActionListener, View {
+public class NewCharacterGUIView extends GUIView implements ActionListener {
     private final JComboBox selector;
     private final JTextField name;
 

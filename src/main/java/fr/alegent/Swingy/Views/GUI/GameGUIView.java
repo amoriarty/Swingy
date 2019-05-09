@@ -60,6 +60,8 @@ public class GameGUIView extends JFrame implements GameView {
 
     // MARK:- Unused
 
+    public void start() { }
+
     public void setController(Controller controller) { }
 
 }

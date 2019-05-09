@@ -7,6 +7,7 @@ import fr.alegent.Swingy.Models.State;
 import fr.alegent.Swingy.Views.View;
 
 public class NewCharacterController extends Controller {
+    final String title = "New Character";
 
     NewCharacterController(ViewFactory factory, GameController parent, State state) throws Exception {
         super(factory, View.Type.NEW_CHARACTER, parent, state);

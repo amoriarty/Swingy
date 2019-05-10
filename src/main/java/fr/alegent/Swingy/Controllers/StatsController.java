@@ -20,7 +20,7 @@ public class StatsController extends Controller {
         val name = String.format("Name: %s", player.name);
         //noinspection ConstantConditions
         val origin = String.format("Origin: %s - %s", player.origin.name, player.origin.description);
-        val health = String.format("Health: %d / %d", player.getHealth(), player.getMaxHP());
+        val health = String.format("Health: %d / %d", player.health, player.getMaxHP());
         val attack = String.format("Attack: %d", player.getAttack());
         val armor = String.format("Armor: %d", player.getArmor());
         val luck = String.format("Luck: %d", player.getLuck());

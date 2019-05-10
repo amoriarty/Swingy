@@ -14,7 +14,7 @@ public class Equipment {
         this.weapon = equipment.weapon;
     }
 
-    int getHealth() {
+    Integer getHealth() {
         var points = 0;
         if (helm != null) points += helm.health;
         if (armor != null) points += armor.health;
@@ -22,7 +22,7 @@ public class Equipment {
         return points;
     }
 
-    int getAttack() {
+    Integer getAttack() {
         var points = 0;
         if (helm != null) points += helm.health;
         if (armor != null) points += armor.health;
@@ -30,7 +30,7 @@ public class Equipment {
         return points;
     }
 
-    int getArmor() {
+    Integer getArmor() {
         var points = 0;
         if (helm != null) points += helm.health;
         if (armor != null) points += armor.health;

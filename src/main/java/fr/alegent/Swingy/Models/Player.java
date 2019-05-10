@@ -1,5 +1,7 @@
 package fr.alegent.Swingy.Models;
 
+import lombok.val;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,12 +11,12 @@ public class Player {
     public final List<Item> inventory;
     public final Equipment equipment;
     public Coordinate coordinate;
+    public Integer health;
     // --Commented out by Inspection (2019-05-10 13:11):private final int level;
-    private final int health;
-    private final int maxHP;
-    private final int attack;
-    private final int armor;
-    private final int luck;
+    private final Integer maxHP;
+    private final Integer attack;
+    private final Integer armor;
+    private final Integer luck;
 
 //    enum LevelUpType {
 //        HEALTH, ARMOR, ATTACK, LUCK
@@ -33,12 +35,6 @@ public class Player {
         this.luck = origin.luck;
         this.health = getMaxHP();
     }
-
-// --Commented out by Inspection START (2019-05-10 13:10):
-//    public int getLevel() {
-//        return level;
-//    }
-// --Commented out by Inspection STOP (2019-05-10 13:10)
 
 // --Commented out by Inspection START (2019-05-10 13:08):
 //    public void addLevel(LevelUpType type) {
@@ -62,33 +58,24 @@ public class Player {
 //    }
 // --Commented out by Inspection STOP (2019-05-10 13:08)
 
-    public int getHealth() {
-        return health;
+    public Integer getMaxHP() {
+        val points = maxHP + equipment.getHealth();
+        return points > 0 ? points : 0;
     }
 
-// --Commented out by Inspection START (2019-05-10 13:12):
-//    public void setHealth(int health) {
-//        val maxHP = getMaxHP();
-//        if (health < 0) this.health = 0;
-//        else if (health > maxHP) this.health = maxHP;
-//        else this.health = health;
-//    }
-// --Commented out by Inspection STOP (2019-05-10 13:12)
-
-    public int getMaxHP() {
-        return maxHP + equipment.getHealth();
+    public Integer getAttack() {
+        val points = attack + equipment.getAttack();
+        return points > 0 ? points : 0;
     }
 
-    public int getAttack() {
-        return attack + equipment.getAttack();
+    public Integer getArmor() {
+        val points = armor + equipment.getArmor();
+        return points > 0 ? points : 0;
     }
 
-    public int getArmor() {
-        return armor + equipment.getArmor();
-    }
-
-    public int getLuck() {
-        return luck + equipment.getAttack();
+    public Integer getLuck() {
+        val points = luck + equipment.getAttack();
+        return points > 0 ? points : 0;
     }
 
 }

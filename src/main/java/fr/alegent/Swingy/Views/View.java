@@ -4,15 +4,8 @@ import fr.alegent.Swingy.Controllers.Controller;
 
 public interface View {
     enum Type {
-        NONE,
-        GAME,
-        NEW_CHARACTER,
-        FREE,
-        MOVE,
-        INVENTORY,
-        EQUIP,
-        UNEQUIP,
-        FIGHT
+        NONE, GAME, NEW_CHARACTER, FREE, MOVE,
+        INVENTORY, EQUIP, UNEQUIP, FIGHT
     }
 
     void start() throws Exception;

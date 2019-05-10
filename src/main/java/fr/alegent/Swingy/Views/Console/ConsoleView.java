@@ -4,7 +4,6 @@ import fr.alegent.Swingy.Controllers.Controller;
 import fr.alegent.Swingy.Views.View;
 import lombok.val;
 
-import java.util.List;
 import java.util.Scanner;
 
 abstract class ConsoleView implements View {

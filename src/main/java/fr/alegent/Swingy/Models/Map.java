@@ -10,7 +10,7 @@ import java.util.Random;
 public class Map {
     public final HashMap<Coordinate, Item> items = new HashMap<>();
     public final HashMap<Coordinate, Enemy> enemies = new HashMap<>();
-    public final int size;
+    public final Integer size;
 
     public Map(int mission) throws Exception {
         val size = mission * 6;

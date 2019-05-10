@@ -22,6 +22,7 @@ public class CheckController extends Controller {
         state.stage = State.Stage.FREE_MODE;
 
         if (coordinate.x < 0 || coordinate.y < 0 || coordinate.x > map.size || coordinate.y > map.size) {
+            state.mission += 1;
             state.stage = State.Stage.MISSION_GENERATION;
             parent.view.println("MISSION PASSED");
         }

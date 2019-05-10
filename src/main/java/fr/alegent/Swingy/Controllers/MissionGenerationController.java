@@ -16,7 +16,6 @@ public class MissionGenerationController extends Controller {
     }
 
     void start() throws Exception {
-        state.mission += 1;
         state.map = new Map(state.mission);
         state.coordinate = new Coordinate(state.map.size / 2, state.map.size / 2);
         state.player.coordinate = new Coordinate(state.coordinate);

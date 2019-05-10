@@ -5,6 +5,7 @@ import fr.alegent.Swingy.Models.Coordinate;
 import fr.alegent.Swingy.Models.State;
 import fr.alegent.Swingy.Views.View;
 import lombok.val;
+import lombok.var;
 
 import java.util.Random;
 
@@ -44,6 +45,7 @@ public class FightController extends Controller {
                 break;
         }
 
+        state.enemy = null;
         state.stage = State.Stage.FREE_MODE;
         parent.update(state);
     }
@@ -61,10 +63,43 @@ public class FightController extends Controller {
         fight(false);
     }
 
+    @SuppressWarnings("ConstantConditions")
     private void fight(boolean begin) {
         if (!begin) {
             parent.view.println("The enemy has make the first hit while you try to run.");
+            take();
         }
+
+        while (state.player.health > 0 && state.enemy.health > 0) {
+            hit();
+            take();
+        }
+
+        if (state.enemy.health <= 0) {
+            state.player.health = state.player.getMaxHP();
+            parent.view.println("You win the battle !");
+        } else if (state.player.health <= 0) {
+            state.stage = State.Stage.MISSION_GENERATION;
+            parent.view.println("YOU DIED");
+        }
+    }
+
+    private void hit() {
+        var hit = state.player.getAttack() - state.enemy.armor;
+        hit = hit > 0 ? hit : 0;
+
+        val formatted = String.format("You hit the enemy and he loose %d HP.", hit);
+        parent.view.println(formatted);
+        state.enemy.health -= hit;
+    }
+
+    private void take() {
+        var hit = state.enemy.attack - state.player.getArmor();
+        hit = hit > 0 ? hit : 0;
+
+        val formatted = String.format("The enemy get you and you loose %d HP.", hit);
+        parent.view.println(formatted);
+        state.player.health -= hit;
     }
 
 }

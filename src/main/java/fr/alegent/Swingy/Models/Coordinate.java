@@ -9,7 +9,7 @@ import java.util.Random;
 @AllArgsConstructor
 @EqualsAndHashCode
 public class Coordinate {
-    public int x, y;
+    public Integer x, y;
 
     public Coordinate(Coordinate coordinate) {
         this(coordinate.x, coordinate.y);

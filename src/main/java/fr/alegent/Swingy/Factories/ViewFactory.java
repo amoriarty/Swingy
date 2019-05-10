@@ -1,8 +1,5 @@
 package fr.alegent.Swingy.Factories;
 
-import fr.alegent.Swingy.Controllers.FightController;
-import fr.alegent.Swingy.Controllers.InventoryController;
-import fr.alegent.Swingy.Controllers.UnequipController;
 import fr.alegent.Swingy.Exceptions.NoViewDefined;
 import fr.alegent.Swingy.Views.Console.*;
 import fr.alegent.Swingy.Views.GUI.*;

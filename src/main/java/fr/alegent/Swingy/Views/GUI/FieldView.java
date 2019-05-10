@@ -7,6 +7,7 @@ import java.awt.*;
 
 class FieldView extends JPanel {
 
+    @SuppressWarnings("SameParameterValue")
     FieldView(String name, JTextField field) {
         this(name, (JComponent) field);
         val dimension = new Dimension(400, 25);

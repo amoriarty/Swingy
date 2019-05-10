@@ -1,5 +1,6 @@
 package fr.alegent.Swingy.Models;
 
+@SuppressWarnings("WeakerAccess")
 public class Enemy {
     public final String name = null;
     public final String description = null;

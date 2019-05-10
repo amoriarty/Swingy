@@ -9,7 +9,9 @@ public interface View {
         NEW_CHARACTER,
         FREE,
         MOVE,
-        INVENTORY
+        INVENTORY,
+        EQUIP,
+        UNEQUIP
     }
 
     void start() throws Exception;

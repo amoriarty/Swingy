@@ -16,6 +16,9 @@ public class ControllerFactory {
             case FREE_MODE: return new FreeModeController(factory, parent, state);
             case MOVE: return new MoveController(factory, parent, state);
             case STATS: return new StatsController(parent, state);
+            case INVENTORY: return new InventoryController(factory, parent, state);
+            case EQUIP: return new EquipController(factory, parent, state);
+            case UNEQUIP: return new UnequipController(factory, parent, state);
             default: throw new NoControllerDefined(stage);
         }
     }

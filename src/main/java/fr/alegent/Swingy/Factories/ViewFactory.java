@@ -3,10 +3,7 @@ package fr.alegent.Swingy.Factories;
 import fr.alegent.Swingy.Exceptions.NoViewDefined;
 import fr.alegent.Swingy.Views.Console.GameConsoleView;
 import fr.alegent.Swingy.Views.Console.NewCharacterConsoleView;
-import fr.alegent.Swingy.Views.GUI.FreeModeGUIView;
-import fr.alegent.Swingy.Views.GUI.GameGUIView;
-import fr.alegent.Swingy.Views.GUI.MoveGUIView;
-import fr.alegent.Swingy.Views.GUI.NewCharacterGUIView;
+import fr.alegent.Swingy.Views.GUI.*;
 import fr.alegent.Swingy.Views.View;
 import lombok.val;
 
@@ -26,6 +23,9 @@ public class ViewFactory {
         put(View.Type.NEW_CHARACTER, NewCharacterGUIView.class);
         put(View.Type.FREE, FreeModeGUIView.class);
         put(View.Type.MOVE, MoveGUIView.class);
+        put(View.Type.INVENTORY, InventoryGUIView.class);
+        put(View.Type.EQUIP, EquipGUIView.class);
+        put(View.Type.UNEQUIP, UnequipGUIView.class);
     }};
 
 

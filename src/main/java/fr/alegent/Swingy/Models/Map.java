@@ -7,8 +7,9 @@ import java.util.HashMap;
 import java.util.Random;
 
 public class Map {
+    @SuppressWarnings({"FieldCanBeLocal", "MismatchedQueryAndUpdateOfCollection"})
+    private final HashMap<Coordinate, Item> items = new HashMap<>();
     public final int size;
-    final HashMap<Coordinate, Item> items = new HashMap<>();
 
 
     public Map(int mission) throws Exception {

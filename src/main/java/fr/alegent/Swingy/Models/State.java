@@ -13,6 +13,9 @@ public class State {
         FREE_MODE,
         MOVE,
         STATS,
-        INVENTORY
+        INVENTORY,
+        EQUIP,
+        UNEQUIP
     }
+
 }

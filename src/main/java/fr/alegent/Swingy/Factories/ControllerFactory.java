@@ -19,6 +19,7 @@ public class ControllerFactory {
             case INVENTORY: return new InventoryController(factory, parent, state);
             case EQUIP: return new EquipController(factory, parent, state);
             case UNEQUIP: return new UnequipController(factory, parent, state);
+            case CHECK: return new CheckController(parent, state);
             default: throw new NoControllerDefined(stage);
         }
     }

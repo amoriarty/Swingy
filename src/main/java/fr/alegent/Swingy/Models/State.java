@@ -15,7 +15,8 @@ public class State {
         STATS,
         INVENTORY,
         EQUIP,
-        UNEQUIP
+        UNEQUIP,
+        CHECK
     }
 
 }

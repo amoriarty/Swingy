@@ -41,7 +41,7 @@ public class MoveController extends Controller {
                 break;
         }
 
-        state.stage = State.Stage.FREE_MODE;
+        state.stage = State.Stage.CHECK;
         parent.update(state);
     }
 

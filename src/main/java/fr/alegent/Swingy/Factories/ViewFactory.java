@@ -1,8 +1,10 @@
 package fr.alegent.Swingy.Factories;
 
+import fr.alegent.Swingy.Controllers.FightController;
+import fr.alegent.Swingy.Controllers.InventoryController;
+import fr.alegent.Swingy.Controllers.UnequipController;
 import fr.alegent.Swingy.Exceptions.NoViewDefined;
-import fr.alegent.Swingy.Views.Console.GameConsoleView;
-import fr.alegent.Swingy.Views.Console.NewCharacterConsoleView;
+import fr.alegent.Swingy.Views.Console.*;
 import fr.alegent.Swingy.Views.GUI.*;
 import fr.alegent.Swingy.Views.View;
 import lombok.val;
@@ -16,6 +18,12 @@ public class ViewFactory {
     private final Map<View.Type, Class<? extends View>> console = new HashMap<View.Type, Class<? extends View>>() {{
         put(View.Type.GAME, GameConsoleView.class);
         put(View.Type.NEW_CHARACTER, NewCharacterConsoleView.class);
+        put(View.Type.FREE, FreeModeConsoleView.class);
+        put(View.Type.MOVE, MoveConsoleView.class);
+        put(View.Type.INVENTORY, InventoryConsoleView.class);
+        put(View.Type.EQUIP, EquipConsoleView.class);
+        put(View.Type.UNEQUIP, UnequipConsoleView.class);
+        put(View.Type.FIGHT, FightConsoleView.class);
     }};
 
     private final Map<View.Type, Class<? extends View>> gui = new HashMap<View.Type, Class<? extends View>>() {{

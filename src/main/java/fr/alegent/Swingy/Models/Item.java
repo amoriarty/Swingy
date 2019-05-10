@@ -17,7 +17,7 @@ public class Item {
     public String toString() {
         //noinspection ConstantConditions
         return String.format(
-                "%s - health: %d - attack: %d - armor: %d - luck: %d\n-- %s",
+                "%s - health: %d - attack: %d - armor: %d - luck: %d -- %s",
                 name,
                 health,
                 attack,

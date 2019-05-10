@@ -42,7 +42,7 @@ public class GameController {
     void update(State state) {
         this.state = state;
         this.changes = true;
-        view.println("===========================================");
+        view.println("-------------------------------------------");
     }
 
 }

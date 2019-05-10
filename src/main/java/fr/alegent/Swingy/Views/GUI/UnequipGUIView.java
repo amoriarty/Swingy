@@ -24,7 +24,6 @@ public class UnequipGUIView extends GUIView implements ActionListener {
     }
 
     public void start() {
-        super.start();
         val items = ((UnequipController) controller).getItems();
 
         for (val item: items) {

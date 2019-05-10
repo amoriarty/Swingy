@@ -23,24 +23,24 @@ public class FightController extends Controller {
     }
 
     void start() throws Exception {
-        super.start();
         //noinspection ConstantConditions
         val formatted = String.format(
                 "You've stubble upon %s\n%s\nWhat do you choose to do ?",
                 state.enemy.name,
                 state.enemy.description
         );
+
         parent.view.println(formatted);
+        super.start();
     }
 
     public void handle(Action action) {
-
         switch (action) {
             case RUN:
                 run();
                 break;
             case FIGHT:
-                fight();
+                fight(true);
                 break;
         }
 
@@ -58,11 +58,13 @@ public class FightController extends Controller {
         }
 
         parent.view.println("You won't escape the battle this time, you'll have to fight !");
-        fight();
+        fight(false);
     }
 
-    private void fight() {
-        parent.view.println("Fight began ...");
+    private void fight(boolean begin) {
+        if (!begin) {
+            parent.view.println("The enemy has make the first hit while you try to run.");
+        }
     }
 
 }

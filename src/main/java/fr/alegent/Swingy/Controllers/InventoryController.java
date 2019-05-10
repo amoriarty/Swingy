@@ -20,10 +20,10 @@ public class InventoryController extends Controller {
     }
 
     void start() throws Exception {
-        super.start();
         for (val item: state.player.inventory) {
             parent.view.println(item.toString());
         }
+        super.start();
     }
 
     public void handle(Action action) {

@@ -20,8 +20,8 @@ public class MoveController extends Controller {
     }
 
     void start() throws Exception {
-        super.start();
         parent.view.println("Where to ?");
+        super.start();
     }
 
     public void handle(Direction direction) {

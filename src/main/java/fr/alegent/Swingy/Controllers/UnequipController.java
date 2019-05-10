@@ -24,8 +24,11 @@ public class UnequipController extends Controller {
     }
 
     void start() throws Exception {
-        super.start();
-        if (!getItems().isEmpty()) return;
+        if (!getItems().isEmpty()) {
+            super.start();
+            return;
+        }
+
         state.stage = State.Stage.INVENTORY;
         parent.view.println("You have nothing equipped");
         parent.update(state);

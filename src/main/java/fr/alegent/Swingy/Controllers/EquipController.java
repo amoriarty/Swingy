@@ -23,8 +23,11 @@ public class EquipController extends Controller {
     }
 
     void start() throws Exception {
-        super.start();
-        if (!state.player.inventory.isEmpty()) return;
+        if (!state.player.inventory.isEmpty()) {
+            super.start();
+            return;
+        }
+
         state.stage = State.Stage.INVENTORY;
         parent.view.println("You inventory is empty.");
         parent.update(state);

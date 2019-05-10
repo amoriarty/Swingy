@@ -1,9 +1,6 @@
 package fr.alegent.Swingy.Factories;
 
-import fr.alegent.Swingy.Controllers.Controller;
-import fr.alegent.Swingy.Controllers.GameController;
-import fr.alegent.Swingy.Controllers.MissionGenerationController;
-import fr.alegent.Swingy.Controllers.NewCharacterController;
+import fr.alegent.Swingy.Controllers.*;
 import fr.alegent.Swingy.Exceptions.NoControllerDefined;
 import fr.alegent.Swingy.Models.State;
 
@@ -16,6 +13,9 @@ public class ControllerFactory {
         switch (stage) {
             case NEW_CHARACTER: return new NewCharacterController(factory, parent, state);
             case MISSION_GENERATION: return new MissionGenerationController(parent, state);
+            case FREE_MODE: return new FreeModeController(factory, parent, state);
+            case MOVE: return new MoveController(factory, parent, state);
+            case STATS: return new StatsController(parent, state);
             default: throw new NoControllerDefined(stage);
         }
     }

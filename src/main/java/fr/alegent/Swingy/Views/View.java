@@ -6,7 +6,10 @@ public interface View {
     enum Type {
         NONE,
         GAME,
-        NEW_CHARACTER
+        NEW_CHARACTER,
+        FREE,
+        MOVE,
+        INVENTORY
     }
 
     void start() throws Exception;

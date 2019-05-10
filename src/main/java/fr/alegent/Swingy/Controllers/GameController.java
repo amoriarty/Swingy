@@ -35,6 +35,8 @@ public class GameController {
             view.addSubview(controller.view);
             controller.start();
         }
+
+        view.dispose();
     }
 
     void update(State state) {

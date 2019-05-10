@@ -10,6 +10,9 @@ public class State {
         QUIT,
         NEW_CHARACTER,
         MISSION_GENERATION,
-        FREE_MODE
+        FREE_MODE,
+        MOVE,
+        STATS,
+        INVENTORY
     }
 }

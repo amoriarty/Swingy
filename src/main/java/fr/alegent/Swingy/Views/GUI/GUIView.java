@@ -13,4 +13,5 @@ abstract class GUIView extends JPanel implements View {
     }
 
     public void start() { }
+
 }

@@ -6,6 +6,7 @@ import fr.alegent.Swingy.Views.View;
 import lombok.val;
 
 import javax.swing.*;
+import javax.swing.text.DefaultCaret;
 import java.awt.*;
 
 public class GameGUIView extends JFrame implements GameView {
@@ -51,9 +52,11 @@ public class GameGUIView extends JFrame implements GameView {
         TextArea() {
             super();
             val font = new Font("SF Mono", Font.PLAIN,16);
+            val caret = (DefaultCaret) getCaret();
             setFont(font);
             setLineWrap(true);
             setEditable(false);
+            caret.setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);
         }
 
     }

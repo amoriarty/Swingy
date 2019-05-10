@@ -16,4 +16,6 @@ public class GameConsoleView extends ConsoleView implements GameView {
 
     public void start() { }
 
+    public void dispose() { }
+
 }

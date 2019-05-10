@@ -3,7 +3,9 @@ package fr.alegent.Swingy.Factories;
 import fr.alegent.Swingy.Exceptions.NoViewDefined;
 import fr.alegent.Swingy.Views.Console.GameConsoleView;
 import fr.alegent.Swingy.Views.Console.NewCharacterConsoleView;
+import fr.alegent.Swingy.Views.GUI.FreeModeGUIView;
 import fr.alegent.Swingy.Views.GUI.GameGUIView;
+import fr.alegent.Swingy.Views.GUI.MoveGUIView;
 import fr.alegent.Swingy.Views.GUI.NewCharacterGUIView;
 import fr.alegent.Swingy.Views.View;
 import lombok.val;
@@ -22,6 +24,8 @@ public class ViewFactory {
     private final Map<View.Type, Class<? extends View>> gui = new HashMap<View.Type, Class<? extends View>>() {{
         put(View.Type.GAME, GameGUIView.class);
         put(View.Type.NEW_CHARACTER, NewCharacterGUIView.class);
+        put(View.Type.FREE, FreeModeGUIView.class);
+        put(View.Type.MOVE, MoveGUIView.class);
     }};
 
 

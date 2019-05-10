@@ -13,7 +13,7 @@ public class NewCharacterController extends Controller {
     }
 
     public String getTitle() {
-        return "New Character";
+        return "NEW CHARACTER";
     }
 
     public void create(String name, Origin origin) {

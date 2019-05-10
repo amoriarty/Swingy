@@ -1,6 +1,7 @@
 package fr.alegent.Swingy.Controllers;
 
 import fr.alegent.Swingy.Factories.ViewFactory;
+import fr.alegent.Swingy.Models.Coordinate;
 import fr.alegent.Swingy.Models.State;
 import fr.alegent.Swingy.Views.View;
 
@@ -15,10 +16,17 @@ public class MoveController extends Controller {
     }
 
     public String getTitle() {
-        return "Where to ?";
+        return null;
+    }
+
+    void start() throws Exception {
+        super.start();
+        parent.view.println("Where to ?");
     }
 
     public void handle(Direction direction) {
+        state.coordinate = new Coordinate(state.player.coordinate);
+
         switch (direction) {
             case NORTH:
                 state.player.coordinate.y -= 1;

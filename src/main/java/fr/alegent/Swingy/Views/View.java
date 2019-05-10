@@ -11,7 +11,8 @@ public interface View {
         MOVE,
         INVENTORY,
         EQUIP,
-        UNEQUIP
+        UNEQUIP,
+        FIGHT
     }
 
     void start() throws Exception;

@@ -5,6 +5,8 @@ public class State {
     public Player player;
     public int mission = 0;
     public Map map;
+    public Enemy enemy;
+    public Coordinate coordinate;
 
     public enum Stage {
         QUIT,
@@ -16,7 +18,8 @@ public class State {
         INVENTORY,
         EQUIP,
         UNEQUIP,
-        CHECK
+        CHECK,
+        FIGHT
     }
 
 }

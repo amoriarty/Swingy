@@ -19,7 +19,7 @@ public class EquipController extends Controller {
     }
 
     public String getTitle() {
-        return "Equip";
+        return "EQUIP";
     }
 
     void start() throws Exception {

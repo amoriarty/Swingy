@@ -11,7 +11,7 @@ public class StatsController extends Controller {
     }
 
     public String getTitle() {
-        return "Character Statistics";
+        return "CHARACTER STATISTICS";
     }
 
     void start() {

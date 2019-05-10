@@ -16,7 +16,7 @@ public class FreeModeController extends Controller {
     }
 
     public String getTitle() {
-        return "Free Mode";
+        return "FREE MODE";
     }
 
     void start() throws Exception {

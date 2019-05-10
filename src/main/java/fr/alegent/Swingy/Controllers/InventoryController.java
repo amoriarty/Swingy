@@ -16,7 +16,7 @@ public class InventoryController extends Controller {
     }
 
     public String getTitle() {
-        return "Inventory";
+        return "INVENTORY";
     }
 
     void start() throws Exception {

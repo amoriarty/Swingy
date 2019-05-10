@@ -11,6 +11,10 @@ import java.util.Random;
 public class Coordinate {
     public int x, y;
 
+    public Coordinate(Coordinate coordinate) {
+        this(coordinate.x, coordinate.y);
+    }
+
     static Coordinate random(int size) {
         val x = new Random().nextInt(size);
         val y = new Random().nextInt(size);

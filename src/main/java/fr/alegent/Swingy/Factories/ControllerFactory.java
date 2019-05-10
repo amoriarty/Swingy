@@ -20,6 +20,7 @@ public class ControllerFactory {
             case EQUIP: return new EquipController(factory, parent, state);
             case UNEQUIP: return new UnequipController(factory, parent, state);
             case CHECK: return new CheckController(parent, state);
+            case FIGHT: return new FightController(factory, parent, state);
             default: throw new NoControllerDefined(stage);
         }
     }

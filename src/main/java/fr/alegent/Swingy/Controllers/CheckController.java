@@ -18,6 +18,7 @@ public class CheckController extends Controller {
         val coordinate = state.player.coordinate;
         val map = state.map;
         val item = map.items.get(coordinate);
+        val enemy = map.enemies.get(coordinate);
         state.stage = State.Stage.FREE_MODE;
 
         if (coordinate.x < 0 || coordinate.y < 0 || coordinate.x > map.size || coordinate.y > map.size) {
@@ -30,6 +31,11 @@ public class CheckController extends Controller {
             parent.view.println("You have loot " + item.name);
             state.player.inventory.add(item);
             state.map.items.remove(coordinate);
+        }
+
+        if (enemy != null) {
+            state.stage = State.Stage.FIGHT;
+            state.enemy = enemy;
         }
 
         parent.update(state);

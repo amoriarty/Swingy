@@ -26,6 +26,7 @@ public class ViewFactory {
         put(View.Type.INVENTORY, InventoryGUIView.class);
         put(View.Type.EQUIP, EquipGUIView.class);
         put(View.Type.UNEQUIP, UnequipGUIView.class);
+        put(View.Type.FIGHT, FightGUIView.class);
     }};
 
 

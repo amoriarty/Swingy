@@ -20,7 +20,7 @@ public class UnequipController extends Controller {
     }
 
     public String getTitle() {
-        return "Unequip";
+        return "UNEQUIP";
     }
 
     void start() throws Exception {

@@ -76,8 +76,7 @@ public class FightController extends Controller {
         }
 
         if (state.enemy.health <= 0) {
-            state.player.health = state.player.getMaxHP();
-            parent.view.println("You win the battle !");
+            win();
         } else if (state.player.health <= 0) {
             state.stage = State.Stage.MISSION_GENERATION;
             parent.view.println("YOU DIED");
@@ -102,4 +101,17 @@ public class FightController extends Controller {
         state.player.health -= hit;
     }
 
+    private void win() {
+        val random = new Random();
+        state.player.health = state.player.getMaxHP();
+        parent.view.println("You win the battle !");
+
+        if (random.nextInt(100) > state.player.getLuck() + 10) return;
+        val index = random.nextInt(state.items.length);
+        val item = state.items[index];
+        //noinspection ConstantConditions
+        val formatted = String.format("The enemy drop %s", item.name);
+        state.player.inventory.add(item);
+        parent.view.println(formatted);
+    }
 }

@@ -15,8 +15,8 @@ public class MissionGenerationController extends Controller {
         return null;
     }
 
-    void start() throws Exception {
-        state.map = new Map(state.mission);
+    void start() {
+        state.map = new Map(state.mission, state.items, state.enemies);
         state.coordinate = new Coordinate(state.map.size / 2, state.map.size / 2);
         state.player.coordinate = new Coordinate(state.coordinate);
         state.stage = State.Stage.FREE_MODE;

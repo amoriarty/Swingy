@@ -18,9 +18,7 @@ public class Player {
     private final Integer armor;
     private final Integer luck;
 
-//    enum LevelUpType {
-//        HEALTH, ARMOR, ATTACK, LUCK
-//    }
+
 
     public Player(String name, Origin origin) {
         //noinspection ConstantConditions
@@ -36,6 +34,10 @@ public class Player {
         this.health = getMaxHP();
     }
 
+    // TODO: That belongs to a controller.
+//    enum LevelUpType {
+//        HEALTH, ARMOR, ATTACK, LUCK
+//    }
 // --Commented out by Inspection START (2019-05-10 13:08):
 //    public void addLevel(LevelUpType type) {
 //        switch (type) {

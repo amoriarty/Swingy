@@ -105,6 +105,7 @@ public class FightController extends Controller {
     private void win() {
         val random = new Random();
         state.player.health = state.player.getMaxHP();
+        state.map.enemies.remove(state.player.coordinate);
         parent.view.println("You win the battle !");
         level();
 

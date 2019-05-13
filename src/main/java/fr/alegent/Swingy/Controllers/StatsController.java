@@ -20,6 +20,7 @@ public class StatsController extends Controller {
         val name = String.format("Name: %s", player.name);
         //noinspection ConstantConditions
         val origin = String.format("Origin: %s - %s", player.origin.name, player.origin.description);
+        val level = String.format("Level: %d", player.level);
         val health = String.format("Health: %d / %d", player.health, player.getMaxHP());
         val attack = String.format("Attack: %d", player.getAttack());
         val armor = String.format("Armor: %d", player.getArmor());
@@ -32,8 +33,9 @@ public class StatsController extends Controller {
         );
 
         val formatted = String.format(
-                "%s\n%s\n%s\n%s\n%s\n%s\n%s",
+                "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s",
                 name,
+                level,
                 origin,
                 health,
                 attack,

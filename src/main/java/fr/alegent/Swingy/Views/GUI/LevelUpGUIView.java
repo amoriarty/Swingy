@@ -1,7 +1,6 @@
 package fr.alegent.Swingy.Views.GUI;
 
 import fr.alegent.Swingy.Controllers.LevelUpController;
-import fr.alegent.Swingy.Views.Console.LevelUpConsoleView;
 import lombok.val;
 
 import javax.swing.*;
@@ -14,7 +13,7 @@ public class LevelUpGUIView extends GUIView implements ActionListener {
         val layout = new BoxLayout(this, BoxLayout.Y_AXIS);
         setLayout(layout);
 
-        for (val type: LevelUpConsoleView.Type.values()) {
+        for (val type: LevelUpController.Type.values()) {
             val button = new JButton(type.toString());
             button.addActionListener(this);
             add(button);

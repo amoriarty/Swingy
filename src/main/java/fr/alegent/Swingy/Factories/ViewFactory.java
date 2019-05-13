@@ -28,13 +28,16 @@ public class ViewFactory {
 
     private final Map<View.Type, Class<? extends View>> gui = new HashMap<View.Type, Class<? extends View>>() {{
         put(View.Type.GAME, GameGUIView.class);
+        put(View.Type.START, StartGUIView.class);
         put(View.Type.NEW_CHARACTER, NewCharacterGUIView.class);
+        put(View.Type.LOAD_CHARACTER, LoadCharacterGUIView.class);
         put(View.Type.FREE, FreeModeGUIView.class);
         put(View.Type.MOVE, MoveGUIView.class);
         put(View.Type.INVENTORY, InventoryGUIView.class);
         put(View.Type.EQUIP, EquipGUIView.class);
         put(View.Type.UNEQUIP, UnequipGUIView.class);
         put(View.Type.FIGHT, FightGUIView.class);
+        put(View.Type.LEVEL_UP, LevelUpGUIView.class);
     }};
 
 

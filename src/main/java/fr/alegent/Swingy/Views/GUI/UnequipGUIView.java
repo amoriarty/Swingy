@@ -9,7 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class UnequipGUIView extends GUIView implements ActionListener {
-    private final JComboBox selector = new JComboBox<Item>();
+    private final JComboBox<Item> selector = new JComboBox();
 
     public UnequipGUIView() {
         val layout = new BoxLayout(this, BoxLayout.Y_AXIS);
@@ -27,7 +27,6 @@ public class UnequipGUIView extends GUIView implements ActionListener {
         val items = ((UnequipController) controller).getItems();
 
         for (val item: items) {
-            //noinspection unchecked
             selector.addItem(item);
         }
     }

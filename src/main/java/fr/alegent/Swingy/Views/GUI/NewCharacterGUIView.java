@@ -11,7 +11,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class NewCharacterGUIView extends GUIView implements ActionListener {
-    private final JComboBox selector;
+    private final JComboBox<Origin> selector;
     private final JTextField name;
 
     public NewCharacterGUIView() throws Exception {

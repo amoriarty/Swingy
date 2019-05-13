@@ -8,6 +8,10 @@ import fr.alegent.Swingy.Views.View;
 
 public class LoadCharacterController extends Controller {
 
+    public enum Action {
+        LOAD, RETURN
+    }
+
     public LoadCharacterController(ViewFactory factory, GameController parent, State state) throws Exception {
         super(factory, View.Type.LOAD_CHARACTER, parent, state);
     }
@@ -23,6 +27,11 @@ public class LoadCharacterController extends Controller {
     public void load(Player player) {
         state.player = player;
         state.stage = State.Stage.MISSION_GENERATION;
+        parent.update(state);
+    }
+
+    public void previous() {
+        state.stage = State.Stage.START;
         parent.update(state);
     }
 

@@ -7,15 +7,7 @@ import fr.alegent.Swingy.Views.View;
 public class StartController extends Controller {
 
     public enum Action {
-        NEW_GAME, LOAD_GAME;
-
-        public String toString() {
-            switch (this) {
-                case NEW_GAME: return "NEW GAME";
-                case LOAD_GAME: return "LOAD GAME";
-            }
-            return null;
-        }
+        NEW, LOAD
     }
 
     public StartController(ViewFactory factory, GameController parent, State state) throws Exception {
@@ -28,10 +20,10 @@ public class StartController extends Controller {
 
     public void handle(Action action) {
         switch (action) {
-            case NEW_GAME:
+            case NEW:
                 state.stage = State.Stage.NEW_CHARACTER;
                 break;
-            case LOAD_GAME:
+            case LOAD:
                 state.stage = State.Stage.LOAD_CHARACTER;
                 break;
         }

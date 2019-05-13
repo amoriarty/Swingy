@@ -4,6 +4,7 @@ import fr.alegent.Swingy.Exceptions.InvalidGameMode;
 import fr.alegent.Swingy.Factories.ControllerFactory;
 import fr.alegent.Swingy.Factories.ViewFactory;
 import fr.alegent.Swingy.Models.State;
+import fr.alegent.Swingy.Services.SavesServices;
 import fr.alegent.Swingy.Views.GameView;
 import fr.alegent.Swingy.Views.View;
 import lombok.val;
@@ -27,6 +28,7 @@ public class GameController {
     public void start() throws Exception {
         while (state.stage != State.Stage.QUIT) {
             if (!changes) continue;
+            SavesServices.save(state.player);
             changes = false;
 
             val controller = ControllerFactory.make(state.stage, factory, this, state);

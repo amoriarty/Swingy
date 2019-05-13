@@ -2,10 +2,12 @@ package fr.alegent.Swingy.Models;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 import lombok.val;
 
 import java.util.Random;
 
+@NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode
 public class Coordinate {

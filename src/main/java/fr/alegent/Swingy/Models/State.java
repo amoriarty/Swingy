@@ -1,28 +1,22 @@
 package fr.alegent.Swingy.Models;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import fr.alegent.Swingy.Services.ResourcesService;
-import lombok.RequiredArgsConstructor;
-import lombok.val;
+import fr.alegent.Swingy.Services.SavesServices;
 
 public class State {
+    public final Enemy[] enemies;
+    public final Item[] items;
+    public final Save[] saves;
     public Coordinate coordinate;
     public Player player;
+    public Enemy enemy;
     public Stage stage;
     public Map map;
-
-    @JsonIgnore
-    public final Enemy[] enemies;
-
-    @JsonIgnore
-    public final Item[] items;
-
-    @JsonIgnore
-    public Enemy enemy;
 
     public State() throws Exception {
         enemies = ResourcesService.shared.get("enemies.json", Enemy[].class);
         items = ResourcesService.shared.get("items.json", Item[].class);
+        saves = SavesServices.get();
     }
 
     public enum Stage {

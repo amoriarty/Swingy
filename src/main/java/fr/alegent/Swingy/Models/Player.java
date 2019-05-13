@@ -13,11 +13,18 @@ public class Player {
     public Coordinate coordinate;
     public Integer health;
     public Integer level;
-    public Integer xp = 0;
+    public Integer xp;
     public Integer maxHP;
     public Integer attack;
     public Integer armor;
     public Integer luck;
+
+    public Player() {
+        this.name = null;
+        this.origin = null;
+        this.inventory = null;
+        this.equipment = null;
+    }
 
     public Player(String name, Origin origin) {
         //noinspection ConstantConditions
@@ -26,6 +33,7 @@ public class Player {
         this.origin = origin;
         this.inventory = new ArrayList<>();
         this.level = origin.level;
+        this.xp = 0;
         this.maxHP = origin.health;
         this.attack = origin.attack;
         this.armor = origin.armor;

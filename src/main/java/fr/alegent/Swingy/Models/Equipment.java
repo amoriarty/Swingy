@@ -1,7 +1,9 @@
 package fr.alegent.Swingy.Models;
 
+import lombok.NoArgsConstructor;
 import lombok.var;
 
+@NoArgsConstructor
 public class Equipment {
     public Item helm;
     public Item armor;

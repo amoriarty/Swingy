@@ -11,7 +11,9 @@ public class ControllerFactory {
                                   GameController parent,
                                   State state) throws Exception {
         switch (stage) {
+            case START: return new StartController(factory, parent, state);
             case NEW_CHARACTER: return new NewCharacterController(factory, parent, state);
+            case LOAD_CHARACTER: return new LoadCharacterController(factory, parent, state);
             case MISSION_GENERATION: return new MissionGenerationController(parent, state);
             case FREE_MODE: return new FreeModeController(factory, parent, state);
             case MOVE: return new MoveController(factory, parent, state);

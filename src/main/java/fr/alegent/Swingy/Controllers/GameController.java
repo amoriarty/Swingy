@@ -19,7 +19,9 @@ public class GameController {
         try {
             factory = new ViewFactory(mode);
             view = factory.make(View.Type.GAME);
-            state.stage = State.Stage.NEW_CHARACTER;
+            state.stage = state.saves.length == 0
+                    ? State.Stage.NEW_CHARACTER
+                    : State.Stage.START;
         } catch (IllegalArgumentException exception) {
             throw new InvalidGameMode();
         }

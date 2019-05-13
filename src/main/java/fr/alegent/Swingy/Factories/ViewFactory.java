@@ -14,7 +14,9 @@ public class ViewFactory {
 
     private final Map<View.Type, Class<? extends View>> console = new HashMap<View.Type, Class<? extends View>>() {{
         put(View.Type.GAME, GameConsoleView.class);
+        put(View.Type.START, StartConsoleView.class);
         put(View.Type.NEW_CHARACTER, NewCharacterConsoleView.class);
+        put(View.Type.LOAD_CHARACTER, LoadCharacterConsoleView.class);
         put(View.Type.FREE, FreeModeConsoleView.class);
         put(View.Type.MOVE, MoveConsoleView.class);
         put(View.Type.INVENTORY, InventoryConsoleView.class);

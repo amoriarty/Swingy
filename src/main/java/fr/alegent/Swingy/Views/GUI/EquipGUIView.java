@@ -9,7 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class EquipGUIView extends GUIView implements ActionListener {
-    private final JComboBox<Item> selector = new JComboBox();
+    private final JComboBox<Item> selector = new JComboBox<>();
 
     public EquipGUIView() {
         val layout = new BoxLayout(this, BoxLayout.Y_AXIS);

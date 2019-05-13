@@ -6,15 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba16747f-8b2a-4020-a5ce-21aa46fe6200" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/LevelUpGUIView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/LoadCharacterGUIView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/StartGUIView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/LoadCharacterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/LoadCharacterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/StartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Factories/ViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Factories/ViewFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/EquipGUIView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/EquipGUIView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/NewCharacterGUIView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/NewCharacterGUIView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/UnequipGUIView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/UnequipGUIView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,10 +24,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/StartGUIView.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="-183">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/EquipGUIView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,13 +48,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/GameController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/UnequipGUIView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -131,7 +133,6 @@
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Coordinate.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Services/SavesServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/State.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/GameController.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/View.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/Console/StartConsoleView.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Factories/ControllerFactory.java" />
@@ -140,15 +141,16 @@
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Save.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/StartGUIView.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/LoadCharacterController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/EquipGUIView.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/NewCharacterGUIView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/UnequipGUIView.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/LevelUpController.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/LevelUpGUIView.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Factories/ViewFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/StartController.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/LoadCharacterGUIView.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/GUIView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/GameController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/EquipGUIView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/UnequipGUIView.java" />
       </list>
     </option>
   </component>
@@ -170,7 +172,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -182,7 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -246,38 +247,11 @@
               <item name="Swingy" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="Factories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="Views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="Views" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -550,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557748544679</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="That was easier than I think">
+      <created>1557752511712</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1557752511712</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -566,14 +547,14 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4916067" visible="true" weight="0.28236246" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4916067" weight="0.28640777" />
       <window_info id="Structure" order="1" sideWeight="0.5063291" side_tool="true" weight="0.27786753" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.5083933" side_tool="true" weight="0.28236246" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5444265" visible="true" weight="0.3489011" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5444265" weight="0.3489011" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4271978" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -582,7 +563,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4555735" side_tool="true" weight="0.48219177" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.57754445" weight="0.3282967" />
-      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3282967" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="11" visible="true" weight="0.32692307" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -592,7 +573,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding inventory and looting." />
     <MESSAGE value="Can now see player statistics." />
     <MESSAGE value="Begin the inventory system with equip." />
     <MESSAGE value="Create JSONObject from State and all subclasses" />
@@ -617,25 +597,8 @@
     <MESSAGE value="Enemy can now drop object when winning the battle.&#10;Also loading enemies and items list in state, so it's shared accross applications and load once." />
     <MESSAGE value="Saving player models at each Stage loop.&#10;Getting all saves in putting it into state." />
     <MESSAGE value="Can now choose between loading save or start a new game." />
-    <option name="LAST_COMMIT_MESSAGE" value="Can now choose between loading save or start a new game." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/GameController.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/GameController.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="That was easier than I think" />
+    <option name="LAST_COMMIT_MESSAGE" value="That was easier than I think" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -656,16 +619,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/Console/MoveConsoleView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Models/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -780,9 +733,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/saves/47.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/saves/47.json" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar!/com/fasterxml/jackson/databind/DeserializationContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1771" />
@@ -956,23 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/EquipGUIView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/UnequipGUIView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/NewCharacterGUIView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1025,16 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/LevelUpController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Factories/ViewFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -1084,21 +1008,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/StartGUIView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="162">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/GameController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/LevelUpController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="353">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Swingy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Controllers/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/EquipGUIView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/alegent/Swingy/Views/GUI/UnequipGUIView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
         </state>
       </provider>
     </entry>

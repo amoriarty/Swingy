@@ -7,7 +7,6 @@ import lombok.val;
 
 public class State {
     public Coordinate coordinate;
-    public Integer mission = 1;
     public Player player;
     public Stage stage;
     public Map map;
@@ -28,7 +27,7 @@ public class State {
 
     public enum Stage {
         QUIT, NEW_CHARACTER, MISSION_GENERATION, FREE_MODE, MOVE,
-        STATS, INVENTORY, EQUIP, UNEQUIP, CHECK, FIGHT
+        STATS, INVENTORY, EQUIP, UNEQUIP, CHECK, FIGHT, LEVEL_UP
     }
 
 }

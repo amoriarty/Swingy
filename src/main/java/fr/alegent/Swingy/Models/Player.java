@@ -12,13 +12,12 @@ public class Player {
     public final Equipment equipment;
     public Coordinate coordinate;
     public Integer health;
-    // --Commented out by Inspection (2019-05-10 13:11):private final int level;
-    private final Integer maxHP;
-    private final Integer attack;
-    private final Integer armor;
-    private final Integer luck;
-
-
+    public Integer level;
+    public Integer xp = 0;
+    public Integer maxHP;
+    public Integer attack;
+    public Integer armor;
+    public Integer luck;
 
     public Player(String name, Origin origin) {
         //noinspection ConstantConditions
@@ -26,39 +25,13 @@ public class Player {
         this.name = name;
         this.origin = origin;
         this.inventory = new ArrayList<>();
-//        this.level = origin.level;
+        this.level = origin.level;
         this.maxHP = origin.health;
         this.attack = origin.attack;
         this.armor = origin.armor;
         this.luck = origin.luck;
         this.health = getMaxHP();
     }
-
-    // TODO: That belongs to a controller.
-//    enum LevelUpType {
-//        HEALTH, ARMOR, ATTACK, LUCK
-//    }
-// --Commented out by Inspection START (2019-05-10 13:08):
-//    public void addLevel(LevelUpType type) {
-//        switch (type) {
-//            case HEALTH:
-//                maxHP += 1;
-//                break;
-//            case ATTACK:
-//                attack += 1;
-//                break;
-//            case ARMOR:
-//                armor += 1;
-//                break;
-//            case LUCK:
-//                luck += 1;
-//                break;
-//        }
-//
-//        this.level += 1;
-//        this.health = getMaxHP();
-//    }
-// --Commented out by Inspection STOP (2019-05-10 13:08)
 
     public Integer getMaxHP() {
         val points = maxHP + equipment.getHealth();
@@ -78,6 +51,10 @@ public class Player {
     public Integer getLuck() {
         val points = luck + equipment.getAttack();
         return points > 0 ? points : 0;
+    }
+
+    public Integer nextLevel() {
+        return level * 1000 + ((level - 1) * (level - 1)) * 450;
     }
 
 }

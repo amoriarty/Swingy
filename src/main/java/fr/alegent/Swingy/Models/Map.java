@@ -13,7 +13,7 @@ public class Map {
 
     // TODO: Based map size on player level, not current mission.
     public Map(int level, Item[] items, Enemy[] enemies) {
-        val size = level * 6;
+        val size = (level - 1) * 5 + 10 - (level % 2);
         val player = new Coordinate(size / 2, size / 2);
         val filteredEnemies = new ArrayList<Enemy>();
         this.size = size;

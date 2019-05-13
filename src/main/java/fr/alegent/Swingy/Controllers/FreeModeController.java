@@ -20,7 +20,6 @@ public class FreeModeController extends Controller {
     }
 
     void start() throws Exception {
-        val mission = String.format("Current mission %d", state.mission);
         val map = String.format("Current map %dx%d", state.map.size, state.map.size);
         val position = String.format(
                 "Current position %dx%d",
@@ -28,7 +27,7 @@ public class FreeModeController extends Controller {
                 state.player.coordinate.y
         );
 
-        val formatted = String.format("%s\n%s\n%s", mission, map, position);
+        val formatted = String.format("%s\n%s", map, position);
         parent.view.println(formatted);
         super.start();
     }

@@ -36,6 +36,8 @@ public class FightController extends Controller {
     }
 
     public void handle(Action action) {
+        state.stage = State.Stage.FREE_MODE;
+
         switch (action) {
             case RUN:
                 run();
@@ -46,7 +48,6 @@ public class FightController extends Controller {
         }
 
         state.enemy = null;
-        state.stage = State.Stage.FREE_MODE;
         parent.update(state);
     }
 
@@ -75,9 +76,9 @@ public class FightController extends Controller {
             take();
         }
 
-        if (state.enemy.health <= 0) {
-            win();
-        } else if (state.player.health <= 0) {
+        if (state.enemy.health <= 0) win();
+        else if (state.player.health <= 0) {
+            state.player.health = state.player.getMaxHP();
             state.stage = State.Stage.MISSION_GENERATION;
             parent.view.println("YOU DIED");
         }
@@ -105,6 +106,7 @@ public class FightController extends Controller {
         val random = new Random();
         state.player.health = state.player.getMaxHP();
         parent.view.println("You win the battle !");
+        level();
 
         if (random.nextInt(100) > state.player.getLuck() + 10) return;
         val index = random.nextInt(state.items.length);
@@ -114,4 +116,19 @@ public class FightController extends Controller {
         state.player.inventory.add(item);
         parent.view.println(formatted);
     }
+
+    private void level() {
+        val level = state.enemy.level;
+        val xp = level * 1000 + ((level - 1) * (level - 1)) + 200;
+        val formatted = String.format("You receive %d xp", xp);
+        state.player.xp += xp;
+        parent.view.println(formatted);
+
+        if (state.player.xp < state.player.nextLevel()) return ;
+        state.player.level += 1;
+        state.player.xp = 0;
+        state.stage = State.Stage.LEVEL_UP;
+        parent.view.println("You reach the next level");
+    }
+
 }

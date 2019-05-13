@@ -21,6 +21,7 @@ public class ViewFactory {
         put(View.Type.EQUIP, EquipConsoleView.class);
         put(View.Type.UNEQUIP, UnequipConsoleView.class);
         put(View.Type.FIGHT, FightConsoleView.class);
+        put(View.Type.LEVEL_UP, LevelUpConsoleView.class);
     }};
 
     private final Map<View.Type, Class<? extends View>> gui = new HashMap<View.Type, Class<? extends View>>() {{

@@ -11,42 +11,44 @@ import lombok.val;
 
 public class GameController {
     private final ViewFactory factory;
-    private boolean changes = true;
-    private State state = new State();
     final GameView view;
 
     public GameController(String mode) throws Exception {
         try {
             factory = new ViewFactory(mode);
             view = factory.make(View.Type.GAME);
-            state.stage = state.saves.length == 0
-                    ? State.Stage.NEW_CHARACTER
-                    : State.Stage.START;
         } catch (IllegalArgumentException exception) {
             throw new InvalidGameMode();
         }
     }
 
     public void start() throws Exception {
-        while (state.stage != State.Stage.QUIT) {
-            if (!changes) continue;
+        val state = new State();
+        state.stage = state.saves.length == 0
+                ? State.Stage.NEW_CHARACTER
+                : State.Stage.START;
+        update(state);
+    }
+
+    void update(State state) {
+        view.println("-------------------------------------------");
+
+        try {
             SavesServices.save(state.player);
-            changes = false;
+
+            if (state.stage == State.Stage.QUIT) {
+                view.dispose();
+                return;
+            }
 
             val controller = ControllerFactory.make(state.stage, factory, this, state);
             val title = controller.getTitle();
             if (title != null) view.println(title);
             view.addSubview(controller.view);
             controller.start();
+        } catch (Exception exception) {
+            exception.printStackTrace();
         }
-
-        view.dispose();
-    }
-
-    void update(State state) {
-        this.state = state;
-        this.changes = true;
-        view.println("-------------------------------------------");
     }
 
 }
